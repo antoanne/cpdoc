@@ -6,7 +6,7 @@
 .Azinho {font-size:xx-small}
 .Azao {font-size:larger}
 
-#logo-container{    height:90px; width:100%;   }
+#logo-container{    height:90px; width:100%; padding-top:5px;  }
     #logo { width:40%;  float:left; padding: 5px 0px 5px 0px;   }
     #login{ float:right;    width:50%;  }
         #login .content p{ float:right; font-size:14px; margin:7px 5px 0 0; color:#034C7F;  }
