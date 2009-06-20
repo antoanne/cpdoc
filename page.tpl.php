@@ -90,13 +90,15 @@
         </div>
     </div>
 </div>
-<div class="primary-menu clear-block">
+<?php if (!empty($sub_menu)) : ?>
+<div class="secundary-menu clear-block">
     <div class="make-it-center"><!-- / make-it-center -->
         <div id="sub_menu clear-block">
             <?php echo $sub_menu; ?>
         </div>
     </div>
 </div>
+<?php endif; ?>
 
 <div class="make-it-center"><!-- / make-it-center -->
 	<div id="content_top_left">
