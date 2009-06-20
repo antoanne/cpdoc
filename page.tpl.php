@@ -18,7 +18,7 @@
           if (p[i].style.fontSize) {
              var s = parseInt(p[i].style.fontSize.replace("px",""));
           } else {
-             var s = 12;
+             var s = 14;
           }
           if(s!=max) {
              s += 1;
@@ -32,7 +32,7 @@
           if(p[i].style.fontSize) {
              var s = parseInt(p[i].style.fontSize.replace("px",""));
           } else {
-             var s = 12;
+             var s = 14;
           }
           if(s!=min) {
              s -= 1;
