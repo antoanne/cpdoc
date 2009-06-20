@@ -1,0 +1,106 @@
+/* border:1px solid red; */
+
+#html-main, .body-main {    font-size: 0.9em !important; padding: 0px 0 0 0; margin: 0 auto; font-family: Calibri, "Trebuchet MS", Arial, Tahoma, Verdana, Georgia, "Times New Roman", sans-serif;  }
+.body-main{ display:block;  }
+.make-it-center{    margin: auto;   height: auto;   width:1000px;   clear:both; }
+
+.Azes{ text-align:right; padding-right:10px; font-weight:bold}
+.Azinho {font-size:xx-small}
+.Azao {font-size:larger}
+
+#logo-container{    height:90px; width:100%;   }
+    #logo { width:40%;  float:left; padding: 5px 0px 5px 0px;   }
+    #login{ float:right;    width:50%;  }
+        #login .content p{  float:right;    font-size:14px; margin:7px 5px 0 0; color:#034C7F;  }
+
+.primary-menu{  float:left; background:transparent url("images/bg_menu.gif") repeat-x ; height: 25px; width:100%; font-size:16px;}
+li.expanded ul.menu{border:1px solid red; display:none;}
+ul.menu li{ display:inline; float:left; }
+ul.menu li a{    text-decoration:none;   font-size:16px; margin:60px 10px 10px 10px; color:#0066CC; }
+ul.menu li.expanded ul{ background:url("images/bg_menu.gif") repeat-x; height: 20px;}
+
+ul.nice-menu-down li.menuparent, ul.nice-menu li{background:none; border-style:none;}
+ul.nice-menu a{padding:0px 10px 0px 10px; border-left:solid blue 1px; color:white; font-size:14px; font-weight:bold}
+nice-menu{border-right:solid blue 1px;}
+
+/* MENU JQUERY */
+.kwicks {
+     list-style: none;
+     position: relative;
+     margin: 0;
+     padding: 0;
+	 background-image:url(images/no_flicker.jpg); /*some browsers are to slow when aligning the menu items via jQuery and so the background shines through, this prevents this flickering*/
+ }
+.kwicks li{
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+	float: left;
+	width: 125px;
+	height: 25px;
+	margin-right: 0px;
+	background-image:url(images/kwicks_sprite.jpg);
+	background-repeat:no-repeat;
+	border-left:solid 1px gray;
+}
+.kwicks a{
+	/*text-indent:-9999px;*/
+	display:block;
+	height:25px;
+	text-decoration:none;
+	outline:none;
+	padding-left:20px;
+	padding-top:2px;
+}
+
+#kwick1, .menu-1659{
+	background-position:0px 0px;
+}
+#kwick2 , .menu-1657{
+	background-position:-200px 0px;
+}
+#kwick3 , .menu-1711{
+	background-position:-400px 0px;
+}
+#kwick4 , .menu-1660{
+	background-position:-600px 0px;
+}
+ul.kwicks li.first{
+    border-left:solid 1px gray;
+}
+ul.kwicks li.last{
+    border-right:solid 1px gray;
+}
+ul.kwicks li a.active{
+    color:white;
+	font-weight:bold;
+}
+
+
+
+
+#aluno-online{  background:transparent url("images/bg_login.gif") no-repeat;    width:420px;    float: right;   margin-top:3px; padding: 3px 0px 3px 20px;  height: 20px;   text-align:center;  }
+    #aluno-online input {   background-color: #EFEFEF;  border:1px solid #666666;   }
+
+#share-it{  float: right;   }
+
+.panel-flexible {   width:100%; }
+
+#home-news{ height:283px;   width:750px;    background:transparent url("images/bg-home-news.jpg") no-repeat;    }
+    #home-news h1, #home-news p{    padding-right:5px;  }
+
+#content_top_right{ float:right;    padding:5px 0 5px 0;    }
+#content_top_left{  float:left; padding:5px 0 5px 0;    }
+
+.block-search{  padding-top:1px;    padding-left:10px;  padding-right:10px; width:200px;    height:50px;   background:transparent url("images/bg-home-search.gif") no-repeat; font-size:0.8em;  }
+    .block-search .form-item{   float:left; margin:0px; }
+    #search input { background-color: #EFEFEF;  border:1px solid #666666;   }
+    #search #submit{    padding-top:14px; font-size:1.15em;  }
+
+#footer{    text-align:left;    color:#707070;  clear:both; background:transparent url("images/bg_footer.gif") repeat-x top left;   height:80px;    padding:15px 0 0 0; font-size:0.8em;  }
+
+#top{	background-color:green;	background:transparent url("images/bg_top.gif") repeat-x;	}
+
+
+.panel-flexible .panel-separator{ display:none;}
