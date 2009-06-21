@@ -11,20 +11,16 @@
     #login{ float:right;    width:50%;  }
         #login .content p{ float:right; font-size:14px; margin:7px 5px 0 0; color:#034C7F;  }
 
-.primary-menu{float:left; background:transparent url("images/bg_menu.gif") repeat-x; height: 25px; width:100%;}
+/* .primary-menu{float:left; background:transparent url("images/bg_menu.gif") repeat-x; height: 25px; width:100%;}
 .secundary-menu{float:left; background:transparent url("images/bg_menu_secundary.gif") repeat-x; height: 25px; width:100%;}
-
-li.expanded ul.menu{border:1px solid red; display:none;}
-ul.menu li{ display:inline; float:left; margin:0.2em 0 0 2em;}
-ul.menu li a{ text-decoration:none; font-size:11px; color:black; }
-ul.menu li.expanded ul{ background:url("images/bg_menu.gif") repeat-x; height:00px;}
+.fundo-menu{height:70px;}
+.teste{width:100%; background:transparent url("pro_line_fundo.gif") repeat-x;}
+.nav li{list-style:none;} */
 
 ul.nice-menu-down li.menuparent, ul.nice-menu li{background:none; border-style:none;}
 ul.nice-menu a{border-left:solid #C4C4C4 1px; border-right:solid #C4C4C4 1px; color:white; font-size:14px; margin-right:-1px;}
 nice-menu{border-right:solid blue 1px;}
-
 ul.nice-menu ul{background:transparent url("images/bkg_tab.png"); border:1px solid #C4C4C4; margin-right:-1px;}
-
 ul.nice-menu ul li{width:18em;}
 ul.nice-menu-down li li.menuparent {background:transparent none;}
 ul.nice-menu-down li.menuparent:hover{ background:black;}
@@ -56,3 +52,22 @@ ul.nice-menu-down li li.menuparent:hover{background:black;}
 
 
 .panel-flexible .panel-separator{ display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

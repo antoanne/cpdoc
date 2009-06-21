@@ -42,7 +42,7 @@
     }
 </script>
 
-  <script type="text/javascript"><?php /* Needed to avoid Flash of Unstyle Content in IE */ ?> </script>
+  <script type="text/javascript"><?php /* Needed to avoid Flash of Unstyle Content in IE */ ?> </script>  
 </head>
 
 <body class="body-main">
@@ -72,31 +72,12 @@
 </div><!-- / make-it-center -->
 </div>
 
-<!-- 
-<div class="primary-menu clear-block">
+
+<?php if (!empty($menu)) : ?>
+<div class="fundo-menu">
 <div class="make-it-center">
-	<?php if (isset($primary_links)) : ?>
-        <?php echo theme('links', $primary_links, array('class' => 'kwicks')) ?>
-    <?php endif; ?>
-</div>
-</div>
--->
-
-
-<div class="primary-menu clear-block">
-    <div class="make-it-center"><!-- / make-it-center -->
-        <div id="menu clear-block">
             <?php echo $menu; ?>
-        </div>
-    </div>
 </div>
-<?php if (!empty($sub_menu)) : ?>
-<div class="secundary-menu clear-block">
-    <div class="make-it-center"><!-- / make-it-center -->
-        <div id="sub_menu clear-block">
-            <?php echo $sub_menu; ?>
-        </div>
-    </div>
 </div>
 <?php endif; ?>
 
@@ -117,7 +98,6 @@
 <?php echo $content; ?>
 </div><!-- / make-it-center -->
 
-
 <div id="footer" class="clear-block"><!-- footer -->
 <div class="make-it-center"><!-- / make-it-center -->
  <div class="clear-both">
@@ -128,5 +108,10 @@
 </div><!-- /footer -->
 
 <?php print $closure ?>
+
+
+
+
+
 </body>
 </html>

@@ -6,6 +6,7 @@ description = Customized template to CPDOC's WebSite
 version = VERSION
 core = 6.x
 engine = phptemplate
+stylesheets[all][dropline] = menu.css
 stylesheets[all][base] = base.css
 stylesheets[all][] = style.css
 stylesheets[print][] = print.css
