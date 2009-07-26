@@ -2,20 +2,18 @@
 .body-main{ display:block;  }
 .make-it-center{    margin: auto;   height: auto;   width:1000px;   clear:both; }
 
-.Azes{ text-align:right; padding-right:10px; font-weight:bold}
-.Azinho {font-size:xx-small}
-.Azao {font-size:larger}
+.title{color:#000000;}
+
+.Azes{ font-weight:bold; position:absolute; z-index:999; margin-left:950px;}
+.Azinho {font-size:small}
+.Azao {font-size:x-large}
+
+a:hover{text-decoration:none}
 
 #logo-container{    height:90px; width:100%; padding-top:5px;  }
     #logo { width:40%;  float:left; padding: 5px 0px 5px 0px;   }
-    #login{ float:right;    width:50%;  }
+    #login{ float:right; text-align:right; height:80%; padding-right:5px;}
         #login .content p{ float:right; font-size:14px; margin:7px 5px 0 0; color:#034C7F;  }
-
-/* .primary-menu{float:left; background:transparent url("images/bg_menu.gif") repeat-x; height: 25px; width:100%;}
-.secundary-menu{float:left; background:transparent url("images/bg_menu_secundary.gif") repeat-x; height: 25px; width:100%;}
-.fundo-menu{height:70px;}
-.teste{width:100%; background:transparent url("pro_line_fundo.gif") repeat-x;}
-.nav li{list-style:none;} */
 
 ul.nice-menu-down li.menuparent, ul.nice-menu li{background:none; border-style:none;}
 ul.nice-menu a{border-left:solid #C4C4C4 1px; border-right:solid #C4C4C4 1px; color:white; font-size:14px; margin-right:-1px;}
@@ -28,46 +26,90 @@ ul.nice-menu-down .menuparent{background:black;}
 ul.nice-menu-down li li.menuparent:hover{background:black;}
 
 
-#aluno-online{  background:transparent url("images/bg_login.gif") no-repeat;    width:420px;    float: right;   margin-top:3px; padding: 3px 0px 3px 20px;  height: 20px;   text-align:center;  }
-    #aluno-online input {   background-color: #EFEFEF;  border:1px solid #666666;   }
+#aluno-online{ width:164px; padding: 5px 10px 10px 5px; text-align:right; border:1px solid #33aacc; }
+    #aluno-online input { background-color: #EFEFEF; border:1px solid #666666; }
+    .box {padding:0px;}
 
 #share-it{  float: right;   }
 
 .panel-flexible {   width:100%; }
 
-#home-news{ height:283px;   width:750px;    background:transparent url("images/bg-home-news.jpg") no-repeat;    }
-    #home-news h1, #home-news p{    padding-right:5px;  }
+#_home-news{padding:0px 5px 5px 5px; height:283px; width:550px; background:transparent url("images/bg-home-news.jpg") no-repeat;}
+    #home-news-title{color:#000000; text-align:justify; padding:0px 5px 0px 5px; font-size:16px;}
+    #home-news-todas-noticias{float:right; padding-right:10px; color:green; font-size:14px;}
+    #home-news-todas-noticias a{color:green;}
+    #home-news p, #home-news p a{font-size:12px; color:#3399cc; font-weight:normal;}
+    #home-news h2{margin-top:0px; padding-top:5px; padding-left:10px; font-size:20px;}
+    #home-news-first{float:left; width:215px; border-right:1px #EEEEEE solid; padding:5px;}
+    #home-news-last{float:right; width:320px; border-bottom:1px #EEEEEE solid; }
+        #home-news-last img{display:none;}
+
+#home-news-top{float:left; width:188px; height:170px; padding:2px; border:1px solid #33aacc; margin:1px; text-align:center;}
+#home-news-top-title{text-align:center; color:#000000}
+
+#DSpaceFeed{padding:20px; border:1px solid #33aacc; clear:both;}
+#DSpaceFeedTitle, #DSpaceFeedTitle a{font-weight:normal; color:#000000;}
+#DSpaceFeedAutor, #DSpaceFeedAutor a{font-weight:normal; padding:0px 0px 15px 10px; color:#3399cc;}
 
 #content_top_right{ float:right;    padding:5px 0 5px 0;    }
 #content_top_left{  float:left; padding:5px 0 5px 0;    }
 
-.block-search{  padding-top:1px;    padding-left:10px;  padding-right:10px; width:200px;    height:50px;   background:transparent url("images/bg-home-search.gif") no-repeat; font-size:0.8em;  }
-    .block-search .form-item{   float:left; margin:0px; }
+/* .block-search{  padding-top:1px;    padding-left:10px;  padding-right:10px; width:200px;    height:50px;   background:transparent url("images/bg-home-search.gif") no-repeat;
+*/
+.block-search { font-size:0.8em; padding-top:20px;}
+    .block-search .form-item label { color:#3399cc; }
     #search input { background-color: #EFEFEF;  border:1px solid #666666;   }
-    #search #submit{    padding-top:14px; font-size:1.15em;  }
+    #search #submit{ padding-top:14px; font-size:1.15em;  }
 
-#footer{    text-align:left;    color:#707070;  clear:both; background:transparent url("images/bg_footer.gif") repeat-x top left;   height:80px;    padding:15px 0 0 0; font-size:0.8em;  }
+#footer-menu .content{background:none; height:100%; padding:18px 0px 0px 0px;}
+#footer-menu .menu a{background:none;}
+#footer-menu .menu li, #footer-menu .menu a:hover, #footer-menu .menu li:hover{background:none;}
+
+#footer{ text-align:left; color:#404040; clear:both; background:transparent url("images/bg_footer.gif") repeat-x top left;   height:50px; padding:0px; font-size:0.8em;  }
+#footer a{color:#383838;}
+#footer p{ margin-left:10px; }
+.block {margin-bottom:0px;}
 
 #top{	background-color:green;	background:transparent url("images/bg_top.gif") repeat-x;	}
 
 
 .panel-flexible .panel-separator{ display:none;}
 
+.at300b, .at300m, .at300bs { float:left; }
+.addthis_toolbox {float:right; padding-top:5px;}
+
+.block{border-bottom:none}
 
 
+#YouTubeFeed{float:left; padding:4px; background-color:#CCDDFF; width:100%; margin:2px; font-weight:bold;}
+#YouTubeFeedTumb{float:left;}
+#YouTubeFeedText{padding:4px 4px 0px 64px;}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal{ width:695px; height:150px;}
+.jcarousel-skin-tango .jcarousel-clip-horizontal{width:695px; height:200px;}
+.jcarousel-skin-tango .jcarousel-list-horizontal{width:5000px !important; height:200px;}
+.jcarousel-skin-tango .jcarousel-item{width:145px; height:200px;}
+.jcarousel-skin-tango .jcarousel-item{list-style:none;}
 
 
+#content_left{position:absolute; float:left; width:190px !important; margin:0px 5px;}
+#content{margin-left:200px; width:auto;}
 
+.views-cloud a{width:100%;}
+li.views-cloud-size-1, div.views-cloud-size-1{ font-size: 0.8em; }
+li.views-cloud-size-2, div.views-cloud-size-2{ font-size: 1em; }
+li.views-cloud-size-3, div.views-cloud-size-3{ font-size: 1.2em; }
+li.views-cloud-size-4, div.views-cloud-size-4{ font-size: 1.4em; }
+li.views-cloud-size-5, div.views-cloud-size-5{ font-size: 1.6em; }
+li.views-cloud-size-6, div.views-cloud-size-6{ font-size: 1.8em; }
+li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
+div.views-cloud ul li, div.views-cloud div {
+  white-space: normal;
+  margin:0px;
+  padding:2px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#content_left div{ height:auto; background:none;}
+#content_left li{background:none; border-bottom:2px dotted grey;}
+#content_left li a{color:black; background:none; }
 

@@ -46,10 +46,7 @@
 </head>
 
 <body class="body-main">
-<div class="Azes make-it-center">
-    <a href="javascript:decreaseFontSize();" class="Azinho">A</a>
-    <a href="javascript:increaseFontSize();" class="Azao">A</a>
-</div>
+
 
 <div id="top" class="clear-block"><!-- top -->
 <!-- / make-it-center --><div class="make-it-center">
@@ -73,9 +70,15 @@
 </div>
 
 
+
+
 <?php if (!empty($menu)) : ?>
 <div class="fundo-menu">
 <div class="make-it-center">
+  <div class="Azes">
+    <a href="javascript:decreaseFontSize();" class="Azinho">A<sup>-</sup></a>
+    <a href="javascript:increaseFontSize();" class="Azao">A<sup>+</sup></a>
+  </div>
             <?php echo $menu; ?>
 </div>
 </div>
@@ -95,10 +98,20 @@
 	<?php print $breadcrumb ?>
     <div class="tabs"><?php print $tabs ?></div>
     <?php if ($show_messages) { print $messages; } ?>
-<?php echo $content; ?>
+
+  <div id="content_left">
+	  <?php echo $content_left; ?>
+  </div>
+  <div id="content">
+    <?php echo $content; ?>
+  </div>
 </div><!-- / make-it-center -->
 
+
 <div id="footer" class="clear-block"><!-- footer -->
+<div id="footer-menu">
+  <?php echo $footer_menu ?>
+</div>
 <div class="make-it-center"><!-- / make-it-center -->
  <div class="clear-both">
   <?php echo $footer_message ?>

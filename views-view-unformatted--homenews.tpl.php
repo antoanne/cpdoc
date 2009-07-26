@@ -8,12 +8,22 @@
  */
 ?>
 <div id="home-news">
-<?php if (!empty($title)): ?>
-   <h3><?php print $title; ?></h3>
-<?php endif; ?>
-<?php foreach ($rows as $id => $row): ?>
-  <div class="<?php print $classes[$id]; ?>">
-<?php print $row; ?>
-  </div>
-  <?php endforeach; ?>
+  <h2>Destaques<div id="home-news-todas-noticias"><a href="">Todas as Notícias</a></div></h2>
+<?php
+$first = true;
+foreach ($rows as $id => $row):
+    if ($first == true):
+        $first = false;
+        ?><div id="home-news-first"><?php
+            print $row;
+        ?></div><?php
+    else:
+        ?>        
+        <div id="home-news-last">
+        <?php
+            print $row;
+        ?></div><?php
+    endif;
+endforeach; ?>
 </div>
+

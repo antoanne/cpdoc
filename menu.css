@@ -1,41 +1,41 @@
 .block-menu .content {
-height:70px;
-background: url(pro_line_fundo.gif) repeat-x;
-position:relative;
-font-family:arial, verdana, sans-serif;
-font-size:11px;
-width:1000px;
-z-index:500;
-margin:0 auto;
+    height:70px;
+    background: url(images/pro_line_fundo.gif) repeat-x;
+    position:relative;
+    font-family:arial, verdana, sans-serif;
+    font-size:11px;
+    width:1000px;
+    z-index:500;
+    margin:0 auto;
 }
 
 .block-menu .content .menu{
-margin:0;
-padding:0;
-list-style:none;
-display:table-cell;
-white-space:nowrap;
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:table-cell;
+    white-space:nowrap;
 }
 
 .block-menu .content li {
-margin:0;
-padding:0;
-height:auto;
-float:left;
-list-style:none;
+    margin:0;
+    padding:0;
+    height:auto;
+    float:left;
+    list-style:none;
 }
 
 .block-menu .content .menu a{
-display:block;
-height:35px;
-float:left;
-background: url(pro_line_0.gif);
-padding:0 30px 0 30px;
-text-decoration:none;
-line-height:35px;
-white-space:nowrap;
-color:#ddd;
-font-weight:bold;
+    display:block;
+    height:35px;
+    float:left;
+    background: url(images/pro_line_0.gif);
+    padding:0 30px 0 30px;
+    text-decoration:none;
+    line-height:35px;
+    white-space:nowrap;
+    color:#ddd;
+    font-weight:bold;
 }
 
 .block-menu .content .menu ul li a{
@@ -43,30 +43,35 @@ font-weight:bold;
 }
 
 
+.block-menu .content ul.menu li.active-trail,
 .block-menu .content ul.menu li:hover{
-background: url(pro_line_1.gif);
+background: url(images/pro_line_1.gif);
 padding:0 0 0 15px;
 cursor:pointer;
 color:#fff;
 }
 
-.block-menu .content ul.menu li:hover ul li{
-background: none;
-padding:0 0 0 15px;
-cursor:pointer;
-color:#fff;
+.block-menu .content ul.menu li:hover ul li,
+.block-menu .content ul.menu li.active-trail ul li{
+    background: none;
+    padding:0 0 0 15px;
+    cursor:pointer;
+    color:#fff;
 }
 
+.block-menu .content ul.menu li.active-trail a,
 .block-menu .content ul.menu li:hover a{
-display:block;
-float:left;
-padding:0 30px 0 15px;
-background:url(pro_line_1.gif) right top;
-cursor:pointer;
+    float:left;
+    padding:0 30px 0 15px;
+    background:url(images/pro_line_1.gif) right top;
+    cursor:pointer;
 }
 
 .block-menu .content ul.menu li ul li a{
-display:none;
+    display:none;
+}
+.block-menu .content ul.menu li.active-trail ul li.active-trail a{
+    display:block;
 }
 
 /* IE6 only */
@@ -78,7 +83,8 @@ width:0;
 height:0;
 }
 
-.block-menu .content ul li ul {
+.block-menu .content ul li ul,
+.block-menu .content ul li.active-trail ul {
 display:table;
 margin:0 auto;
 padding:0;
@@ -86,40 +92,27 @@ list-style:none;
 }
 
 .nav .sub_active .current_sub a,
-.nav .sub_active a:hover {
+.nav .sub_active a:hover{
 background:transparent;
 color:#f00;
 }
 
-
 .block-menu .content .menu :hover ul{
-display:block;
-position:absolute;
-width:1000px;
-top:35px;
-background:url(back_0.gif);
-padding:0;
-z-index:100;
-left:0;
-text-align:center;
+    z-index:100;}
+.block-menu .content .menu li.active-trail ul{
+    z-index:90;}
+.block-menu .content .menu :hover ul,
+.block-menu .content .menu li.active-trail ul{
+    display:block;
+    position:absolute;
+    width:1000px;
+    top:35px;
+    background:url(images/back_0.gif);
+    padding:0;
+    left:0;
+    text-align:center;
 }
 
-.block-menu .content .menu :hover ul li a{
-display:block;
-float:left;
-background:transparent;
-padding:0 10px 0 10px;
-margin:0;
-white-space:nowrap;
-border:0;
-color:#444;
-}
-
-
-.block-menu .content .menu :hover ul li a:hover{
-visibility:visible;
-color:#088;
-background:url(back_1.gif);
-}
-
-.fundo-menu{height:70px; width:100%; background:transparent url("pro_line_fundo.gif") repeat-x;}
+.block-menu .content .menu :hover ul li a, .block-menu .content .menu li.active-trail ul li.active-trail, .block-menu .content .menu li.active-trail ul li a{ display:block; float:left; background:transparent; padding:0 10px 0 10px; margin:0; white-space:nowrap; border:0; color:#444; }
+.block-menu .content .menu :hover ul li a:hover, .block-menu .content .menu li ul li.active-trail a{ visibility:visible; color:#088; background:url(images/back_1.gif); }
+.fundo-menu{height:70px; width:100%; background:transparent url("images/pro_line_fundo.gif") repeat-x;}

@@ -38,7 +38,7 @@
     ?>
     <div id="submit">
     <?php
-        print $search["submit"];
+        //print $search["submit"];
         print $search["hidden"];
     ?>
     </div>

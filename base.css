@@ -8,7 +8,7 @@ body {
   padding: 0;
   color: #000;
   background-color: #fff;
-  
+  font: 76% Calibri, Arial, Verdana, Helvetica, sans-serif;
 }
 tr.odd td, tr.even td {
   padding: 0.3em;
@@ -31,6 +31,7 @@ p {
 }
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 a:link {
   color: #39c;
@@ -214,7 +215,17 @@ ul.links li.first {
 .links a {
   font-weight: bold;
 }
-
+.block, .box {
+  padding: 0 0 1.5em 0; /* LTR */
+}
+.block {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 0.75em;
+  margin-bottom: 1.5em;
+}
+.block .title {
+  margin-bottom: .25em;
+}
 .box .title {
   font-size: 1.1em;
 }

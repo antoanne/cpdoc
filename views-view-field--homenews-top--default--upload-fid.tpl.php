@@ -20,4 +20,6 @@
   * the view is modified.
   */
 ?>
-<a href="<?php print $output; ?>">
+<div style="padding:0px 0px 7px 0px;">
+	<center><a href="<?php print (base_path() . "sites/default/files/" . $output); ?>" rel="lightbox"><img src="<?php print (base_path() . "sites/default/files/" . $output); ?>" style="max-height:120px; max-width:150px;" ></img></a></center>
+</div>
