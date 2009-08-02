@@ -22,5 +22,5 @@
 ?>
 <?php $s=split("</p>", str_replace("<p>","",$output)); ?>
       <div id="DSpaceFeedTitle"><?php print $s[0]; ?></div>
-      <div id="DSpaceFeedAutor"><?php print "<i>" . $s[2] . "</i>"; ?></div>
+      <div id="DSpaceFeedAutor"><?php print "<i>" . $s[1] . "</i>"; ?></div>
 </a>

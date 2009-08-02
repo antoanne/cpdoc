@@ -21,5 +21,5 @@
   */
 ?>
 <div style="padding:0px 7px 7px 7px; width:200px;">
-	<center><a href="<?php print (base_path() . "sites/default/files/" . $output); ?>" rel="lightbox"><img src="<?php print (base_path() . "sites/default/files/" . $output); ?>" style="max-height:120px; max-width:200px;" ></img></a></center>
+	<center><img src="<?php print (base_path() . "sites/default/files/" . $output); ?>" style="max-height:120px; max-width:200px;" ></img></center>
 </div>

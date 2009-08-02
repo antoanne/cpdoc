@@ -1,6 +1,6 @@
 .block-menu .content {
     height:70px;
-    background: url(images/pro_line_fundo.gif) repeat-x;
+    background: url(pro_line_fundo.gif) repeat-x;
     position:relative;
     font-family:arial, verdana, sans-serif;
     font-size:11px;
@@ -21,7 +21,7 @@
     margin:0;
     padding:0;
     height:auto;
-    float:left;
+    float:left !important;
     list-style:none;
 }
 
@@ -29,7 +29,7 @@
     display:block;
     height:35px;
     float:left;
-    background: url(images/pro_line_0.gif);
+    background: url(pro_line_0.gif);
     padding:0 30px 0 30px;
     text-decoration:none;
     line-height:35px;
@@ -45,7 +45,7 @@
 
 .block-menu .content ul.menu li.active-trail,
 .block-menu .content ul.menu li:hover{
-background: url(images/pro_line_1.gif);
+background: url(pro_line_1.gif);
 padding:0 0 0 15px;
 cursor:pointer;
 color:#fff;
@@ -63,7 +63,7 @@ color:#fff;
 .block-menu .content ul.menu li:hover a{
     float:left;
     padding:0 30px 0 15px;
-    background:url(images/pro_line_1.gif) right top;
+    background:url(pro_line_1.gif) right top;
     cursor:pointer;
 }
 
@@ -107,12 +107,25 @@ color:#f00;
     position:absolute;
     width:1000px;
     top:35px;
-    background:url(images/back_0.gif);
+    background:url(back_0.gif);
     padding:0;
     left:0;
     text-align:center;
 }
 
 .block-menu .content .menu :hover ul li a, .block-menu .content .menu li.active-trail ul li.active-trail, .block-menu .content .menu li.active-trail ul li a{ display:block; float:left; background:transparent; padding:0 10px 0 10px; margin:0; white-space:nowrap; border:0; color:#444; }
-.block-menu .content .menu :hover ul li a:hover, .block-menu .content .menu li ul li.active-trail a{ visibility:visible; color:#088; background:url(images/back_1.gif); }
-.fundo-menu{height:70px; width:100%; background:transparent url("images/pro_line_fundo.gif") repeat-x;}
+.block-menu .content .menu :hover ul li a:hover, .block-menu .content .menu li ul li.active-trail a{ visibility:visible; color:#088; background:url(back_1.gif); }
+.fundo-menu{height:70px; width:100%; background:transparent url("pro_line_fundo.gif") repeat-x;}
+
+
+
+
+
+#content_left .content{ background:none; width:200px; }
+#content_left .menu{display: block;} 
+#content_left .menu li a { height: 20px; text-decoration: none; }	
+#content_left .menu li a:link, #content_left .menu li a:visited { color: #000; background: url(images/menu.gif); padding: 0 0 8px 10px; width:180px; font-weight:normal; line-height:30px; }
+#content_left .menu li:hover{ background:none; padding:0 0 0 0px; } 	
+#content_left .menu li a:hover, #content_left .menu li a:active { color: #283A50; background: url(images/menu.gif) 0 -32px; }
+
+

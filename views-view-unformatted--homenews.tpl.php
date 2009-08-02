@@ -8,22 +8,34 @@
  */
 ?>
 <div id="home-news">
-  <h2>Destaques<div id="home-news-todas-noticias"><a href="">Todas as Notícias</a></div></h2>
+  <h2>DESTAQUES<div id="home-news-todas-noticias"><a href="">+ ver todas as notícias</a></div></h2>
+  <div id="home-news-content">
 <?php
 $first = true;
+$count = 0;
 foreach ($rows as $id => $row):
+	$count ++;
     if ($first == true):
         $first = false;
         ?><div id="home-news-first"><?php
             print $row;
         ?></div><?php
     else:
+		if ($count == count($rows)) { 
+        ?>        
+        <div id="home-news-last-last">
+        <?php
+            print $row;
+        ?></div><?php
+		} else {
         ?>        
         <div id="home-news-last">
         <?php
             print $row;
         ?></div><?php
+		}
     endif;
 endforeach; ?>
+	</div>
 </div>
 
