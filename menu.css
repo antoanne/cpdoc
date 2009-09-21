@@ -3,7 +3,7 @@
     background: url(images/pro_line_fundo.gif) repeat-x;
     position:relative;
     font-family:arial, verdana, sans-serif;
-    font-size:11px;
+    font-size:11px; 
     width:1000px;
     z-index:500;
     margin:0 auto;
@@ -51,15 +51,27 @@ cursor:pointer;
 color:#fff;
 }
 
-.block-menu .content ul.menu li:hover ul li,
-.block-menu .content ul.menu li.active-trail ul li{
+.block-menu .content ul.menu li:hover ul li{
     background: none;
-    padding:0 0 0 15px;
+    padding:0px;
     cursor:pointer;
     color:#fff;
 }
 
-.block-menu .content ul.menu li.active-trail a,
+.block-menu .content ul.menu li.active-trail ul li{
+    background: none;
+    padding:0 0 0 0px;
+    cursor:pointer;
+    color:#fff;
+}
+
+.block-menu .content ul.menu li.active-trail a {
+    float:left;
+    padding:0 30px 0 15px;
+    background:url(images/pro_line_1.gif) right top;
+    cursor:pointer;
+}
+
 .block-menu .content ul.menu li:hover a{
     float:left;
     padding:0 30px 0 15px;
@@ -67,9 +79,13 @@ color:#fff;
     cursor:pointer;
 }
 
+
 .block-menu .content ul.menu li ul li a{
     display:none;
+    padding:0px 10px;
 }
+
+
 .block-menu .content ul.menu li.active-trail ul li.active-trail a{
     display:block;
 }
@@ -113,19 +129,58 @@ color:#f00;
     text-align:center;
 }
 
-.block-menu .content .menu :hover ul li a, .block-menu .content .menu li.active-trail ul li.active-trail, .block-menu .content .menu li.active-trail ul li a{ display:block; float:left; background:transparent; padding:0 10px 0 10px; margin:0; white-space:nowrap; border:0; color:#444; }
-.block-menu .content .menu :hover ul li a:hover, .block-menu .content .menu li ul li.active-trail a{ visibility:visible; color:#088; background:url(images/back_1.gif); }
-.fundo-menu{height:70px; width:100%; background:transparent url("images/pro_line_fundo.gif") repeat-x;}
+.block-menu .content .menu ul li a {font-weight:bold;}
+
+.block-menu .content .menu :hover ul li a, 
+.block-menu .content .menu li.active-trail ul li.active-trail, 
+.block-menu .content .menu li.active-trail ul li a{ 
+	display:block; 
+	float:left; 
+	background:transparent; 
+	margin:0; 
+	white-space:nowrap; 
+	border:0; color:#444; 
+}
+
+.block-menu .content .menu :hover ul li a:hover, 
+.block-menu .content .menu li ul li.active-trail a{ 
+	visibility:visible; 
+	color:#088; 
+	background:url(images/back_1.gif); 
+}
 
 
-
+.fundo-menu{
+	height:70px; width:100%; 
+	background:transparent url("images/pro_line_fundo.gif") repeat-x;
+}
 
 
 #content_left .content{ background:none; width:200px; }
 #content_left .menu{display: block;} 
 #content_left .menu li a { height: 20px; text-decoration: none; }	
-#content_left .menu li a:link, #content_left .menu li a:visited { color: #000; background: url(images/menu.gif); padding: 0 0 8px 10px; width:180px; font-weight:normal; line-height:30px; }
-#content_left .menu li:hover{ background:none; padding:0 0 0 0px; } 	
-#content_left .menu li a:hover, #content_left .menu li a:active { color: #283A50; background: url(images/menu.gif) 0 -32px; }
 
 
+#content_left .block-menu .content ul.menu li.active-trail a, 
+#content_left .block-menu .content ul.menu li:hover a, 
+#content_left .block-menu .content ul.menu li.active-trail, 
+#content_left .block-menu .content ul.menu li:hover, 
+#content_left .block-menu .content .menu a{
+	margin: 0px; width: 180px; height:35px;  
+	font-family: Calibri,Verdana,"Trebuchet MS"; font-size: 12px; color:#797877;
+	background: none; border-bottom: #A2A1A1 1px dashed;
+}
+
+#content_left .block-menu .content ul.menu li.active-trail a {padding:0 5px; background-color: #F5F4F4; } 
+#content_left .block-menu .content ul.menu li:hover a  {padding:0; background-color: #EBE9E9; }
+#content_left .block-menu .content ul.menu li.active-trail {padding:0; background-color: #EBE9E9; }
+#content_left .block-menu .content ul.menu li:hover {padding:0 5px; background-color: #EBE9E9; }
+#content_left .block-menu .content .menu a {padding:0 5px;}
+
+
+
+
+
+ 	
+	
+ 

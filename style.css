@@ -7,7 +7,7 @@ a:hover{text-decoration:none}
 
 .make-it-center{ margin:auto; height:auto; width:1000px; clear:both; }
 
-.title{color:#000000;}
+.title{color:#1A3772; font-size:1.2em;}
 
 .Azes{ font-weight:bold; position:absolute; z-index:999; margin-left:950px;}
 .Azinho {font-size:small}
@@ -20,33 +20,35 @@ a:hover{text-decoration:none}
         #login .content p{ float:right; font-size:14px; margin:7px 5px 0 0; color:#034C7F;  }
 
 #aluno-online{ width:164px; padding: 0px 20px 0px 10px; text-align:right; border:1px solid #9AACB9; }
-    #aluno-online input { background-color: #EFEFEF; border:1px solid #9AACB9; }
-    .box { padding:0px; }
+    #aluno-online input { padding:1px; }
+    .box {  margin-bottom:8px; border:1px solid #666666; background-color: #F6F5F5; }
+    .box1 { color:#003366; font-size:10px; border:1px solid #666666; border-left:1px solid #ECE9D8; border-top:1px solid #ECE9D8; background-color: #D2D2D2; }	
 
 #share-it{ float:right; }
 
 .panel-flexible { width:100%; }
 .panel-flexible .panel-separator{ display:none;}
 
-#home-news-content{height:250px; width:547px; background-color:#E3E5D8;}
+#home-news-content{height:250px; width:537px; background-color:#FFF9E8; border:1px solid #C8D3D6; margin-left:10px;}
     #home-news-title{color:#000000; text-align:justify; padding:0px 5px 0px 5px; font-size:13px;}
-    #home-news-todas-noticias{float:right; margin-top:-10px; padding:6px 15px 2px 15px; color:#fff; font-size:14px; background-color:#758DA7;}
+    #home-news-todas-noticias{float:right; margin-top:-10px; padding:6px 15px 2px 15px; color:#fff; font-size:13px; background-color:#758DA7;}
     #home-news-todas-noticias a{color:#fff; font-weight:normal;}
     #home-news p, #home-news p a{font-size:12px; color:#000; font-weight:normal;}
-    #home-news h2{margin:0px 0px 4px 0px; font-size:16px; border-bottom:1px solid #758DA7; color:#1A3772;}
+    #home-news h2{margin:0px 0px 4px 10px; font-size:16px; border-bottom:1px solid #758DA7; color:#1A3772;}
     #home-news-first{float:left; width:215px; padding:5px;}
-    #home-news-last, #home-news-last-last{float:right; width:320px; border-bottom:1px #000 dotted; border-left:1px #000 dotted;}
+    #home-news-last, #home-news-last-last{float:right; width:310px; border-bottom:1px #C8D3D6 dotted; border-left:1px #C8D3D6 dotted;}
 	#home-news-last-last {border-bottom:none;}
         #home-news-last img, #home-news-last-last img{display:none;}
 
 #home-news-top{float:left; width:188px; height:170px; padding:2px; border:1px solid #33aacc; margin:1px; text-align:left;}
-#home-news-top-title{text-align:left; color:#000000}
+#home-news-top-title{text-align:left; color:#336699;}
 
-#DSpaceFeed{padding:20px 20px 0px 20px; border:1px solid #33aacc; clear:both; background-color:#DCE7EB; }
+
+#DSpaceFeed{padding:20px 20px 0px 20px; margin:20px 0 0 10px; border:1px solid #C8D3D6; clear:both; background-color:#DCE7EB; }
 #DSpaceFeed h2{margin:0px 0px 4px 0px; font-size:16px; border-bottom:1px solid #758DA7; color:#1A3772;}
 #DSpaceFeedTitle, #DSpaceFeedTitle a{font-weight:normal; color:#000000;}
 #DSpaceFeedAutor, #DSpaceFeedAutor a{font-weight:normal; padding:0px 0px 10px 10px; color:#555;}
-#dspace-mais-publicacoes {float:right; margin-top:-30px; padding:3px 15px 4px 15px; color:#fff; font-size:14px; background-color:#758DA7;}
+#dspace-mais-publicacoes {float:right; margin-top:-30px; padding:3px 15px 4px 15px; color:#fff; font-size:13px; background-color:#758DA7;}
 #dspace-mais-publicacoes a {color:#fff; font-weight:normal;}
 
 #content_top_left{ float:left; padding:5px 0 5px 0; }
@@ -57,14 +59,15 @@ a:hover{text-decoration:none}
     #search input { background-color: #EFEFEF;  border:1px solid #666666;   }
     #search #submit{ padding-top:14px; font-size:1.15em;  }
 
-#footer-menu .content{ background:none; height:100%; padding:18px 0px 0px 0px; }
+#footer-menu .content{ background:none; height:100%; padding:0px 0px 0px 0px; }
 #footer-menu .menu a{ background:none; }
 #footer-menu .menu li, #footer-menu .menu a:hover, #footer-menu .menu li:hover{ background:none; }
 
-#footer{ text-align:left; color:#404040; clear:both; background:transparent url("images/bg_footer.gif") repeat-x top left;   
+#footer{ text-align:left; color:#888888; clear:both; background:transparent url("images/novo_footer.gif") repeat-x top left;   
 	height:50px; padding:0px; font-size:0.8em;  }
-	#footer a{color:#383838;}
-	#footer p{ margin-left:10px; }
+	#footer a{color:#3F6292;}
+	#footer a:hover{color:#3399CC;}
+	#footer p{ margin-left:0px;  }
 	.block {margin-bottom:0px;}
 
 #top{ background-color:green; background:transparent url("images/bg_top.gif") repeat-x;	}
@@ -75,19 +78,23 @@ a:hover{text-decoration:none}
 .block{border-bottom:none}
 
 #YouTube h3{margin:0px 0px 4px 0px; font-size:16px; border-bottom:1px solid #758DA7; color:#1A3772; }
-#YouTubeMais{clear:both; padding:2px 0px 2px 5px; color:#ccc; font-size:14px; background-color:#758DA7;}
+#YouTubeMais{clear:both; padding:2px 0px 2px 5px; color:#ccc; font-size:13px; background-color:#758DA7;}
 #YouTubeMais a {color:#fff; font-weight:normal;}
 #YouTubeFeed{float:left; width:100%; margin:2px; font-weight:normal; font-size:11px; background-color:#F3F6F6}
 #YouTubeFeedTumb{float:left; border:1px solid #758DA7; padding:2px;}
 #YouTubeFeedText{padding:4px 4px 0px 70px;}
 
-.jcarousel-skin-tango .jcarousel-container-horizontal{ width:700px; height:170px;}
-.jcarousel-skin-tango .jcarousel-clip-horizontal{width:700px; height:170px;}
+.jcarousel-skin-tango .jcarousel-container-horizontal{ width:695px; height:170px;}
+.jcarousel-skin-tango .jcarousel-clip-horizontal{width:695px; height:170px;}
 .jcarousel-skin-tango .jcarousel-list-horizontal{width:5000px !important; height:200px;}
-.jcarousel-skin-tango .jcarousel-item{width:130px; height:165px; margin:0 5px 0 5px; }
+.jcarousel-skin-tango .jcarousel-item{width:125px; height:160px; margin:0 7px 0 6px; }
 .jcarousel-skin-tango .jcarousel-item{list-style:none;}
 .jcarousel-skin-tango .jcarousel-container-horizontal { padding:10px 30px;}
 .jcarousel-skin-tango .jcarousel-prev-horizontal, .jcarousel-skin-tango .jcarousel-next-horizontal{ top: 70px; }
+.jcarousel-skin-tango .jcarousel-container {-moz-border-radius-bottomleft:0px; -moz-border-radius-bottomright:0px;
+					    -moz-border-radius-topleft:0px; -moz-border-radius-topright:0px; 
+					    background:#FFF; border:1px solid #CFCFCF; margin-left:10px; margin-top:-6px;}
+
 
 #content_left{float:left; width:200px !important; margin:0px 5px 0px 0px;}
 #content{float:left;}
@@ -104,5 +111,76 @@ li.views-cloud-size-5, div.views-cloud-size-5{ font-size: 1.6em; }
 li.views-cloud-size-6, div.views-cloud-size-6{ font-size: 1.8em; }
 li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 
-#mission, .node .content, .comment .content {line-height:1.1em;}
+#mission, .node .content, .comment .content {line-height:1.1em; text-align:justify;}
 .calendar-calendar div.calendar { font-size:small; }
+
+
+
+#QuebraLinha8  {margin:0px; padding: 4px 0;}
+
+/* Nova região: cabeçalho */
+#cabec{ margin:auto; height:auto; width:1000px; clear:both;}
+
+
+/* Página de Apresentação de todos os dossiês */
+.Dossies {margin-left:180px; background-color:#F8F9FC; padding:10px;}
+.DossiesItem {width:445px; height:70px; padding:5px; border:5px solid #fff; background-color:#F2F3EE; 
+		    color:#203952; line-height:15px;
+		    }
+/* Disposição dos itens na página de apresentação dos dossiês */
+.CabecDossies { font-size:1em; background-color:#5B6E81; border-bottom:3px solid #CACACA; 
+	       height:65px; padding:8px 0 0 180px; margin:0 0 0 0; color:#fff; line-height:18px; 
+	       }	 
+
+/* Disposição dos textos de todos os dossiês */
+.Sombreado {text-shadow: 0px 1px 1px #494E4F; font-size: 18px; line-height:20px;}  
+
+
+/* Disposição dos blocos em todos os dossiês */
+.ContentDossies_left {width:200px; padding:10px; float:left; }
+.ContentDossies_right {width:190px; height: auto; padding-top:20px; float:right;}
+.lista dt{font-style: normal; font-weight: normal; color: #333333;  
+	margin: 5px 0 0px 10px;	padding: 0px 0px 0px 12px;
+	background:transparent url("images/marcador1.gif") no-repeat 0 4px;}
+.lista2 dt{ font-style: normal; font-weight: normal; color: #333333;  
+	margin: 5px 0 0px 10px;	padding: 0px 0px 0px 18px;
+	background:transparent url("images/marcador2.gif") no-repeat 0 5px; }
+
+/* Dossiê A Era Vargas 1o tempo */
+.CabecAEraVargas1 {font-size:15px; background-color:#EE8B0A; border-bottom:3px solid #CCCBCB; 
+	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.ContentDossies {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFF5E9;}
+.TituloAEraVargas1 {font-weight:bold; color:#D47A04; padding-bottom:5px; border-bottom:1px solid #D47A04;}
+
+.EmSinteseAEraVargas1 {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
+.OutrosTextosAEraVargas1 {color:#434242;}
+
+
+/* Dossiê A Era Vargas E Ele Voltou */
+.CabecAEraVargas2 {font-size:15px; background-color:#79A9C7; border-bottom:3px solid #CCCBCB; 
+	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.ContentDossies2 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#EFF2F3;}
+.TituloAEraVargas2 {font-weight:bold; color:#185D92; padding-bottom:5px; border-bottom:1px solid #185D92;}
+.EmSinteseAEraVargas2 {margin: 20px 0; padding:10px; border: 1px #B7D4DE solid; background:#F6FBFC;}
+
+
+/* Dossiê Jango */
+.CabecJango {font-size:15px; background-color:#FBF4A9; border-bottom:3px solid #CCCBCB; 
+	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#275A9C; line-height:18px; }	 
+.ContentDossies3 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFFEF1;}
+.TituloJango {font-weight:bold; color:#648ABB; padding-bottom:5px; border-bottom:1px solid #648ABB;}
+
+
+/* Dossiê JK */
+.CabecJK {font-size:15px; background-color:#A5DCA3; border-bottom:3px solid #79B07C; 
+	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.ContentDossies4 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
+.TituloJK {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
+
+
+/* Dossiê FatosImagens */
+.CabecFatosImagens {font-size:15px; background-color:#339966; border-bottom:3px solid #79B07C; 
+	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.ContentDossies5 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
+.TituloFatosImagens {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
+.ParaSaberMais {margin: 20px 0; padding:10px; border: 1px #E1EBDB solid; background:#FDFFFC;}

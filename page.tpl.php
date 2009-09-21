@@ -81,6 +81,18 @@
 	<?php endif; ?>
 	<!-- menu principal -->
 
+	<!-- / cabec -->
+	<?php if (!empty($cabec)) : ?> 
+	<div class="cabec">
+		<div class="make-it-center">
+
+			<?php echo $cabec; ?>
+		</div>
+	</div>
+	<?php endif; ?>
+	<!-- cabec -->
+
+
 	<!-- content_top* -->
 	<div class="make-it-center">
 		<div id="content_top_left"><?php echo $content_top_left; ?></div>
@@ -89,11 +101,11 @@
 	<!-- / content_top* -->
 
 	<!-- content* -->
-	<div class="make-it-center">
+	<div class="make-it-center"> 
 	<!-- drupal messages -->
-	<?php print $breadcrumb ?>
-	<div class="tabs"><?php print $tabs ?></div>
-	<?php if ($show_messages) { print $messages; } ?>
+	<!-- <?php print $breadcrumb ?> -->
+	     <div class="tabs"><?php print $tabs ?></div> 
+	<!-- <?php if ($show_messages) { print $messages; } ?> -->
 	<!-- / drupal messages -->
 	
 	<!-- content_left -->
