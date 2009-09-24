@@ -1,0 +1,1 @@
+<div style="float:right;"><?php print $output; ?></div>
