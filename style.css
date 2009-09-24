@@ -114,6 +114,7 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 #mission, .node .content, .comment .content {line-height:1.1em; text-align:justify;}
 .calendar-calendar div.calendar { font-size:small; }
 
+#imageDetails p {margin-top:0;}
 
 
 #QuebraLinha8  {margin:0px; padding: 4px 0;}
