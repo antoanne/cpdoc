@@ -1,0 +1,1 @@
+<a href="<?php print (base_path() . "sites/default/files/" . $output); ?>" rel="lightbox[noticias]"> <img align="left" src="<?php print (base_path() . "sites/default/files/" . $output); ?>" style="max-height:120px; max-width:200px; margin:10px;" ></img></a>
