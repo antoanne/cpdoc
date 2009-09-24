@@ -8,7 +8,7 @@
  */
 ?>
 <div id="home-news">
-  <h2>DESTAQUES<div id="home-news-todas-noticias"><a href="">+ ver todas as notícias</a></div></h2>
+  <h2>DESTAQUES<div id="home-news-todas-noticias"><a href="/sobre/noticias">+ ver todas as notícias</a></div></h2>
   <div id="home-news-content">
 <?php
 $first = true;
