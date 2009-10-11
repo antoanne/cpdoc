@@ -79,7 +79,7 @@ p img{ padding: 10px; }
 #top{ background-color:green; background:transparent url("images/bg_top.gif") repeat-x;	}
 
 .at300b, .at300m, .at300bs { float:left; }
-.addthis_toolbox {float:right; padding-top:5px;}
+.addthis_toolbox { clear:both; float:right; padding-top:5px;}
 
 .block{border-bottom:none}
 
