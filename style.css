@@ -65,6 +65,7 @@ p img{ padding: 10px; }
 
 #footer-menu .content{ background:none; height:2px; padding:0px 0px 0px 0px;}
 #footer-menu .menu a{ background:none; }
+#footer-menu .menu .active-trail a{ color:#008888; }
 #footer-menu .menu li, #footer-menu .menu a:hover, #footer-menu .menu li:hover{ background:none; }
 #footer-setas{padding:0px; text-align:right; float:right;}
 
