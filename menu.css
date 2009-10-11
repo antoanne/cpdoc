@@ -133,7 +133,7 @@ color:#f00;
 
 .block-menu .content .menu :hover ul li a, 
 .block-menu .content .menu li.active-trail ul li.active-trail, 
-.block-menu .content .menu li.active-trail ul li a{ 
+.block-menu .content .menu li.active-trail ul li a{
 	display:block; 
 	float:left; 
 	background:transparent; 
@@ -143,7 +143,8 @@ color:#f00;
 }
 
 .block-menu .content .menu :hover ul li a:hover, 
-.block-menu .content .menu li ul li.active-trail a{ 
+.block-menu .content .menu li ul li.active-trail a,
+.block-menu .content .menu li ul li a.active{
 	visibility:visible; 
 	color:#088; 
 	background:url(images/back_1.gif); 

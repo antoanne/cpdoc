@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="<?php echo $language->language ?>" xml:lang="<?php echo $language->language ?>" dir="<?php echo $language->dir ?>" id="html-main">
 
 <head>
@@ -6,6 +6,7 @@
   <title><?php print $head_title ?></title>
   <?php print $styles ?>
   <?php print $scripts ?>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
   <script type="text/javascript" language="javascript">
     var min=8;
     var max=18;
@@ -38,12 +39,9 @@
        }
     }
    </script>
-
-	<script type="text/javascript"><?php /* Needed to avoid Flash of Unstyle Content in IE */ ?> </script>  
 </head>
 
 <body class="body-main">
-
 	<!-- top -->
 	<div id="top" class="clear-block">
 		<div class="make-it-center">
@@ -132,7 +130,10 @@
 	<!-- footer -->
 	<div id="footer" class="clear-block">
 		<!-- footer menu -->
-		<div id="footer-menu"><?php echo $footer_menu ?></div>
+		<div id="footer-menu"><?php echo $footer_menu ?>
+		<div id="footer-setas"><a href="javascript:history.go(-1)"><img src="<?php echo base_path().file_directory_path(); ?>/imagens/seta1.gif" alt="Página anterior" width="20" height="22" border="0"></a>
+			   <a href="#top"><img src="<?php echo base_path().file_directory_path(); ?>/imagens/seta2.gif" width="50" height="25" border="0" alt="Topo da P&aacute;gina"></a>		
+		</div></div> 	
 		<!-- / footer menu -->
 		
 		<!-- footer message -->
