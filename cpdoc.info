@@ -11,7 +11,7 @@ stylesheets[all][base] = base.css
 stylesheets[all][] = style.css
 stylesheets[print][] = print.css
 
-conditional-stylesheets[if lt IE 7][all][IE] = ie6-and-below.css
+conditional-stylesheets[if lt IE 7][all][] = ie6-and-below.css
 
 regions[menu] = menu
 regions[cabec] = cabec

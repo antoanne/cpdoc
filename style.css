@@ -130,71 +130,137 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 #QuebraLinha8  {margin:0px; padding: 4px 0;}
 
 /* Nova região: cabeçalho */
-#cabec{ margin:auto; height:auto; width:1000px; clear:both;}
+#cabec{ margin:auto; height:auto; width:100%; clear:both;}
 
 
-/* Página de Apresentação de todos os dossiês */
+/* Dossiê Todos os dossiês */
 .Dossies {margin-left:180px; background-color:#F8F9FC; padding:10px;}
 .DossiesItem {width:445px; height:70px; padding:5px; border:5px solid #fff; background-color:#F2F3EE; 
 		    color:#203952; line-height:15px;
 		    }
-/* Disposição dos itens na página de apresentação dos dossiês */
-.CabecDossies { font-size:1em; background-color:#5B6E81; border-bottom:3px solid #CACACA; 
-	       height:65px; padding:8px 0 0 180px; margin:0 0 0 0; color:#fff; line-height:18px; 
-	       }	 
+			
+		/* Cabec da página Todos os dossiês */			
+		.CabecDossiesNavegando {font-size:14px; background:transparent url("images/bk_dossies.gif") repeat-x top left; border-left:1px solid #E1E2DE; border-right:1px solid #E1E2DE;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#025969; line-height:18px; }	 
+   		.ContentDossiesNavegando {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F4EB;}
 
-/* Disposição dos textos de todos os dossiês */
-.Sombreado {text-shadow: 0px 1px 1px #494E4F; font-size: 18px; line-height:20px;}  
+		/* Disposição dos itens na página Todos os dossiês */
+		.CabecDossies { font-size:1em; background-color:#5B6E81; border-bottom:3px solid #CACACA; 
+				   height:65px; padding:8px 0 0 180px; margin:0 0 0 0; color:#fff; line-height:18px; 
+				   }	 
 
+		/* Disposição dos textos na página Todos os dossiês */
+		.Sombreado {text-shadow: 0px 1px 1px #494E4F; font-size: 16px; line-height:20px;}  
 
-/* Disposição dos blocos em todos os dossiês */
-.ContentDossies_left {width:200px; padding:10px; float:left; }
-.ContentDossies_right {width:190px; height: auto; padding-top:20px; float:right;}
-.lista dt{font-style: normal; font-weight: normal; color: #333333;  
-	margin: 5px 0 0px 10px;	padding: 0px 0px 0px 12px;
-	background:transparent url("images/marcador1.gif") no-repeat 0 4px;}
-.lista2 dt{ font-style: normal; font-weight: normal; color: #333333;  
-	margin: 5px 0 0px 10px;	padding: 0px 0px 0px 18px;
-	background:transparent url("images/marcador2.gif") no-repeat 0 5px; }
+		/* Disposição dos blocos na página Todos os dossiês */
+		.ContentDossies_left {width:200px; padding:10px; float:left; }
+		.ContentDossies_right {width:190px; height: auto; padding-top:20px; float:right;}
+		.lista dt{font-style: normal; font-weight: normal; color: #333333;  
+			margin: 5px 0 0px 10px;	padding: 0px 0px 0px 12px;
+			background:transparent url("images/marcador1.gif") no-repeat 0 4px;}
+		.lista2 dt{ font-style: normal; font-weight: normal; color: #333333;  
+			margin: 5px 0 0px 10px;	padding: 0px 0px 0px 18px;
+			background:transparent url("images/marcador2.gif") no-repeat 0 5px; }
 
 /* Dossiê A Era Vargas 1o tempo */
-.CabecAEraVargas1 {font-size:15px; background-color:#EE8B0A; border-bottom:3px solid #CCCBCB; 
-	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.CabecAEraVargas1 {font-size:14px; background-color:#EE8B0A; border-bottom:3px solid #CCCBCB; 
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
 .ContentDossies {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFF5E9;}
 .TituloAEraVargas1 {font-weight:bold; color:#D47A04; padding-bottom:5px; border-bottom:1px solid #D47A04;}
-
 .EmSinteseAEraVargas1 {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
 .OutrosTextosAEraVargas1 {color:#434242;}
 
 
 /* Dossiê A Era Vargas E Ele Voltou */
-.CabecAEraVargas2 {font-size:15px; background-color:#79A9C7; border-bottom:3px solid #CCCBCB; 
-	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.CabecAEraVargas2 {font-size:14px; background-color:#79A9C7; border-bottom:3px solid #CCCBCB; 
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
 .ContentDossies2 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#EFF2F3;}
 .TituloAEraVargas2 {font-weight:bold; color:#185D92; padding-bottom:5px; border-bottom:1px solid #185D92;}
 .EmSinteseAEraVargas2 {margin: 20px 0; padding:10px; border: 1px #B7D4DE solid; background:#F6FBFC;}
 
 
 /* Dossiê Jango */
-.CabecJango {font-size:15px; background-color:#FBF4A9; border-bottom:3px solid #CCCBCB; 
-	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#275A9C; line-height:18px; }	 
+.CabecJango {font-size:14px; background-color:#FBF4A9; border-bottom:3px solid #CCCBCB; 
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#275A9C; line-height:18px; }	 
 .ContentDossies3 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFFEF1;}
 .TituloJango {font-weight:bold; color:#648ABB; padding-bottom:5px; border-bottom:1px solid #648ABB;}
 
 
 /* Dossiê JK */
-.CabecJK {font-size:15px; background-color:#A5DCA3; border-bottom:3px solid #79B07C; 
-	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.CabecJK {font-size:14px; background-color:#A5DCA3; border-bottom:3px solid #79B07C; 
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
 .ContentDossies4 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
 .TituloJK {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
 
 
 /* Dossiê FatosImagens */
-.CabecFatosImagens {font-size:15px; background-color:#339966; border-bottom:3px solid #79B07C; 
-	       height:65px; padding:8px 0 0 220px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
+.CabecFatosImagens {font-size:14px; background-color:#339966; border-bottom:3px solid #79B07C; 
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
 .ContentDossies5 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
 .TituloFatosImagens {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
 .ParaSaberMais {margin: 20px 0; padding:10px; border: 1px #E1EBDB solid; background:#FDFFFC;}
 
-#imageData #imageDetails { width:90%; }
+/* Seção O CPDOC - Estrutura */
+.CabecCpdocEstrutura {font-size:14px; background:transparent url("images/bk_estrutura.gif") repeat-x top left; border-left:1px solid #E9EFDD; border-right:1px solid #E9EFDD;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#2E5138; line-height:18px; }	 
+.ContentCpdocEstrutura {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F4EB;}
+.TituloCpdocEstrutura {font-weight:bold; color:#2E5138; padding-bottom:5px; border-bottom:1px solid #2E5138;}
+
+/* Seção O CPDOC - Histórico */
+.CabecCpdocHistorico {font-size:14px; background:transparent url("images/bk_historico.gif") repeat-x top left; border-left:1px solid #E4F1EF; border-right:1px solid #E4F1EF;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#086C5D; line-height:18px; }	 
+.ContentCpdocHistorico {height: auto; color:#758CBF; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F4EB;}
+.TituloCpdocHistorico {font-weight:bold; color:#758CBF; padding-bottom:5px; border-bottom:1px solid #758CBF;}
+
+/* Seção O CPDOC - Consultoria */
+.CabecCpdocConsultoria {font-size:14px; background:transparent url("images/bk_consultoria.gif") repeat-x top left; border-left:1px solid #FCE8D1; border-right:1px solid #FCE8D1;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#650B01; line-height:18px; }	 
+.ContentCpdocConsultoria {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloCpdocConsultoria {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
+.EmSinteseConsultoria {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
+.TopicosConsultoria {color:#8D0000; border-bottom:4px double #CBD0D9; width:100%;}
+
+/* Seção Ensino - Graduação */
+.CabecEnsinoGraduacao {font-size:14px; background:transparent url("images/bk_graduacao.gif") repeat-x top left; border-left:1px solid #E4F2F6; border-right:1px solid #E4F2F6;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#024B60; line-height:18px; }	 
+.ContentEnsinoGraduacao {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloEnsinoGraduacao {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
+
+/* Seção Ensino - PosGraduação */
+.CabecEnsinoPosGraduacao {font-size:14px; background:transparent url("images/bk_posgraduacao.gif") repeat-x top left; border-left:1px solid #CDE5DA; border-right:1px solid #CDE5DA;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#015356; line-height:18px; }	 
+.ContentEnsinoPosGraduacao {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloEnsinoPosGraduacao {font-weight:bold; color:#015356; padding-bottom:5px; border-bottom:1px solid #015356;}
+.EmSinteseEnsinoPosGraduacao {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
+.TopicosEnsinoPosGraduacao {color:#015356; border-bottom:4px double #CBD0D9; width:100%;}
+
+/* Seção Ensino - Cursos */
+.CabecEnsinoCursos {font-size:14px; background:transparent url("images/bk_cursos.gif") repeat-x top left; border-left:1px solid #E0D8E3; border-right:1px solid #E0D8E3;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#472B52; line-height:18px; }	 
+.ContentEnsinoCursos {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloEnsinoCursos {font-weight:bold; color:#472B52; padding-bottom:5px; border-bottom:1px solid #472B52;}
+.EmSinteseEnsinoCursos {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
+.TopicosEnsinoCursos {color:#472B52; border-bottom:4px double #CBD0D9; width:100%;}
+
+/* Seção Pesquisa - Linhas */
+.CabecPesquisaLinhas {font-size:14px; background:transparent url("images/bk_pesqlinhas.gif") repeat-x top left; border-left:1px solid #EEEBE1; border-right:1px solid #EEEBE1;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#4D4B45; line-height:18px; }	 
+.ContentPesquisaLinhas {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloPesquisaLinhas {font-weight:bold; color:#4D4B45; padding-bottom:5px; border-bottom:1px solid #4D4B45;}
+.EmSintesePesquisaLinhas {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
+.TopicosPesquisaLinhas {color:#4D4B45; border-bottom:4px double #CBD0D9; width:100%;}
+.lista3 dt{font-style: normal; font-weight: normal; color: #333333;  
+			margin: 5px 0 0px 10px;	padding: 0px 0px 0px 12px;
+			background:transparent url("images/marcador1.gif") no-repeat 0 5px;}
+			
+/* Seção Producao - PI */
+.CabecProducaoPI {font-size:14px; background:transparent url("images/bk_producao.gif") repeat-x top left; border-left:1px solid #D8DFE9; border-right:1px solid #D8DFE9;
+	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#374B66; line-height:18px; }	 
+.ContentProducaoPI {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background:#F3F5F8; }
+.TituloProducaoPI {font-weight:bold; color:#374B66; padding-bottom:5px; border-bottom:1px solid #374B66;}
+.EmSinteseProducaoPI {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EAEEF3;}
+
+
+			
+			#imageData #imageDetails { width:90%; }
 #frameHoverNav { padding-left:290px; width:20%; }
