@@ -1,26 +1,58 @@
 #html-main, .body-main {
-	font-size: 0.9em !important; padding: 0px 0 0 0; margin: 0 auto; 
-	font-family: Calibri, Verdana, "Trebuchet MS";  }
-.body-main{ display:block;  }
+	font-size: 0.9em !important; padding: 0px; margin: auto; 
+	font-family: Calibri, Verdana, "Trebuchet MS"; width:980px; background-color:#ffffff;}
+/*	background:transparent url("images/bk_principal.gif") repeat-x top left; background-color:#5198B4;} */
 
+.body-main{ display:block;}
+.corpo{ background-color:#ffffff; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;}
+
+
+/* Nova região: cabeçalho */
+#cabec{ margin:0px; height:auto; width:100%; clear:both; }
+
+/* Nova região: topmenu */
+#topmenu{ background:#FFFFFF url("images/cabecalhoGV1.gif") no-repeat; padding-top:5px; margin-bottom:0px; height:26px; width:100%; text-align:right; font-size:11px; color:#686868; clear:both; }
+/* #topmenu{ background-color:#FFFFFF; padding-top:5px; margin-bottom:0px; height:26px; width:100%; text-align:right; font-size:11px; color:#686868; clear:both; } */
+/*		background:transparent url("images/bk_principal.gif") repeat-x top left; background-color:#5198B4; } */
+#topmenu a{color:#686868;}			
+#topmenu a:hover{color:#686868; text-decoration:underline;}
+#topmenu img{margin:0px; }
+
+/* Nova região: linksrodape */
+#linksrodape {width:978; height:auto; padding:10px; color:#fff; font-size:11px;; 
+			 background-color:#377187; margin:0px; }
+#linksrodape td{color:#fff; font-size:11px;}
+.linksrodapecopy {color:#ffffff; font-size:10px; padding:10px; padding-left:10px; margin:0px;}	 
+.linksrodapecopy  a{color:#ffffff;}
+			 
+#top{margin:0px; height:81px; background:transparent url("images/bg_top.gif") repeat-x; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;} 
+/* #top{margin:0px; background:transparent url("images/cabecalhoGV.gif") no-repeat fixed 705px 52px; border-top:1px solid #CCCBCB; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;} */
+#ImgCabecalhoSite {margin: 0 2px 0 0; padding: 0px; text-align: right;}
+			
 a:hover{text-decoration:underline;}
 
+#content_left p img{ padding: 0px; }
 p img{ padding: 10px; }
-.make-it-center{ margin:auto; height:auto; width:1000px; clear:both; }
+.make-it-center{ margin:0; height:auto; width:980px; clear:both;}
 
-.title{color:#1A3772; font-size:1.2em;}
+.block {padding-bottom:0;}
+#footer-menu .block {padding-bottom:0.80em;}
 
-.Azes{ font-weight:bold; position:absolute; z-index:999; margin-left:950px;}
+
+.title{color:#1A3772; font-size:13px;}
+
+.Azes{ font-weight:bold; position:relative; z-index:999; margin-left:920px; margin-top:-72px;}
 .Azinho {font-size:small}
 .Azao {font-size:x-large}
 
+.share-icones{ position:relative; z-index:999; margin-left:880px; margin-top:13px; }
 
-#logo-container{    height:90px; width:100%; padding-top:5px;  }
-    #logo { width:40%;  float:left; padding: 5px 0px 5px 0px;   }
+#logo-container{ width:100%; padding:0px;  }
+    #logo { width:40%;  float:left; padding: 0px; margin:0px;  }
     #login{ float:right; text-align:right; height:80%; padding-right:5px;}
-        #login .content p{ float:right; font-size:14px; margin:7px 5px 0 0; color:#034C7F;  }
+    #login .content p{ float:right; font-size:14px; margin:0px; color:#034C7F;  }
 
-#aluno-online{ width:164px; padding: 0px 20px 0px 10px; text-align:right; border:1px solid #9AACB9; }
+#aluno-online{ width:158px; margin-left:10px; padding: 0px 10px 0px 10px; text-align:right; border:1px solid #9AACB9; }
     #aluno-online input { padding:1px; }
     .box {  margin-bottom:8px; border:1px solid #666666; background-color: #F6F5F5; }
     .box1 { color:#003366; font-size:10px; border:1px solid #666666; border-left:1px solid #ECE9D8; border-top:1px solid #ECE9D8; background-color: #D2D2D2; }	
@@ -29,36 +61,40 @@ p img{ padding: 10px; }
 
 .panel-flexible { width:100%; }
 .panel-flexible .panel-separator{ display:none;}
+.panels-flexible-region-inside-last {padding:8px;}
 
-#home-news-content{height:250px; width:537px; background-color:#FFF9E8; border:1px solid #C8D3D6; margin-left:10px;}
-    #home-news-title{color:#000000; text-align:justify; padding:0px 5px 0px 5px; font-size:13px;}
-    #home-news-todas-noticias{float:right; margin-top:-10px; padding:6px 15px 2px 15px; color:#fff; font-size:13px; background-color:#758DA7;}
+#home-news-content{width:517px; background:transparent url("images/bk_box.jpg") repeat-x top left; border:1px solid #C8D3D6; margin-left:10px;}
+
+    #home-news-title{color:#000000; text-align:justify; padding:0px 5px 0px 5px;}
+    #home-news-todas-noticias{float:right; margin-top:-10px; padding:6px 15px 2px 15px; color:#fff; background-color:#758DA7;}
     #home-news-todas-noticias a{color:#fff; font-weight:normal;}
-    #home-news p, #home-news p a{font-size:11px; color:#000; font-weight:normal;}
-    #home-news h2{margin:0px 0px 4px 10px; font-size:16px; border-bottom:1px solid #758DA7; color:#1A3772;}
-    #home-news-first{float:left; width:215px; padding:5px;}
-    #home-news-last, #home-news-last-last{float:right; width:310px; border-bottom:1px #C8D3D6 dotted; border-left:1px #C8D3D6 dotted;}
+    #home-news p, #home-news p a{color:#000; font-weight:normal; }
+    #home-news h2{margin:0px 0px 4px 10px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772;}
+    #home-news-first, #home-news-last, #home-news-last-last{font-size:13px; border-bottom:1px #C8D3D6 dotted; border-left:1px #C8D3D6 dotted;}
 	#home-news-last-last {border-bottom:none;}
-        #home-news-last img, #home-news-last-last img{display:none;}
+    #home-news-first img, #home-news-last img, #home-news-last-last img{display:none;}
     #home-news a:hover {text-decoration:none;}
 
 #home-news-top{float:left; width:188px; height:170px; padding:2px; border:1px solid #33aacc; margin:1px; text-align:left;}
 #home-news-top-title{text-align:center; color:#336699;}
 
 
-#DSpaceFeed{padding:20px 20px 0px 20px; margin:20px 0 0 10px; border:1px solid #C8D3D6; clear:both; background-color:#DCE7EB; }
+#DSpaceFeed{padding:20px 20px 0px 20px; margin:20px 0 0 10px; border:1px solid #C8D3D6; clear:both; background-color:#F1F2F6; }
 #DSpaceFeed a:hover {text-decoration:none;}
-#DSpaceFeed h2{margin:0px 0px 4px 0px; font-size:16px; border-bottom:1px solid #758DA7; color:#1A3772;}
+#DSpaceFeed h2{margin:0px 0px 4px 0px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772;}
 #DSpaceFeedTitle, #DSpaceFeedTitle a{font-weight:normal; color:#000000;}
 #DSpaceFeedAutor, #DSpaceFeedAutor a{font-weight:normal; padding:0px 0px 10px 10px; color:#555;}
 #dspace-mais-publicacoes {float:right; margin-top:-30px; padding:3px 15px 4px 15px; color:#fff; font-size:13px; background-color:#758DA7;}
 #dspace-mais-publicacoes a {color:#fff; font-weight:normal;}
 #dspace-mais-publicacoes a:hover {text-decoration:underline;}
 
-#content_top_left{ float:left; padding:5px 0 5px 0; }
-#content_top_right{ float:right; padding:5px 0 5px 0; }
+#block-views-DSpaceFeedView-block_1 h2{padding-left:30px;}
+.blocofeedDspace {padding: 10px 0 30px 30px;} 
 
-.block-search { font-size:0.8em; padding-top:20px;}
+#content_top_left{ float:left; padding:5px 0 5px 0; }
+#content_top_right{ float:right; padding:5px 0 5px 0;  }
+
+.block-search { font-size:0.8em; padding-top:20px; margin-top:2.8em;}
     .block-search .form-item label { color:#3399cc; }
     #search input { background-color: #EFEFEF;  border:1px solid #666666;   }
     #search #submit{ padding-top:14px; font-size:1.15em;  }
@@ -70,20 +106,18 @@ p img{ padding: 10px; }
 #footer-setas{padding:0px; text-align:right; float:right;}
 
 #footer{ text-align:left; color:#888888; clear:both; background:transparent url("images/novo_footer.gif") repeat-x top left;   
-	height:50px; padding:0px; font-size:0.8em;  }
+	height:36px; padding:0px; font-size:0.8em;  }
 	#footer a{color:#3F6292;}
 	#footer a:hover{color:#3399CC;}
 	#footer p{ margin-left:0px;  }
 	.block {margin-bottom:0px;}
-
-#top{ background-color:green; background:transparent url("images/bg_top.gif") repeat-x;	}
 
 .at300b, .at300m, .at300bs { float:left; }
 .addthis_toolbox { clear:both; float:right; padding-top:5px;}
 
 .block{border-bottom:none}
 
-#YouTube h3{margin:0px 0px 4px 0px; font-size:16px; border-bottom:1px solid #758DA7; color:#1A3772; }
+#YouTube h3{margin:0px 0px 4px 0px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772; }
 #YouTubeMais{clear:both; padding:2px 0px 2px 5px; color:#ccc; font-size:13px; background-color:#758DA7; padding-left:90px;}
 #YouTubeMais a {color:#fff; font-weight:normal; }
 #YouTubeFeed{float:left; width:100%; margin:2px; font-weight:normal; font-size:11px; background-color:#F3F6F6}
@@ -103,12 +137,12 @@ p img{ padding: 10px; }
 .jcarousel-skin-tango .jcarousel-prev-horizontal, .jcarousel-skin-tango .jcarousel-next-horizontal{ top: 70px; }
 .jcarousel-skin-tango .jcarousel-container {-moz-border-radius-bottomleft:0px; -moz-border-radius-bottomright:0px;
 					    -moz-border-radius-topleft:0px; -moz-border-radius-topright:0px; 
-					    background:#FFF; border:1px solid #CFCFCF; margin-left:10px; margin-top:-6px;}
+					    background:transparent url("images/bk_box.jpg") repeat-x top left; border:1px solid #CFCFCF; margin-left:10px; margin-top:-14px;}
 
 
-#content_left{float:left; width:200px !important; margin:0px 5px 0px 0px;}
-#content{float:left;}
-#content_right{float:right; width:190px !important; margin:0px 0px 0px 5px;}
+#content_left{float:left; width:185px !important; margin:0px 5px 0px 0px;}
+#content{float:left; margin:0 0 0 0px; }
+#content_right{float:right; margin:0px 0px 0px 5px;}
 
 
 .views-cloud a{width:100%;}
@@ -125,14 +159,10 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .calendar-calendar div.calendar { font-size:small; }
 
 #imageDetails p {margin-top:0;}
-
-
 #QuebraLinha8  {margin:0px; padding: 4px 0;}
 
-/* Nova região: cabeçalho */
-#cabec{ margin:auto; height:auto; width:100%; clear:both;}
-
-
+.node {margin:0px; }
+			
 /* Dossiê Todos os dossiês */
 .Dossies {margin-left:180px; background-color:#F8F9FC; padding:10px;}
 .DossiesItem {width:445px; height:70px; padding:5px; border:5px solid #fff; background-color:#F2F3EE; 
@@ -140,8 +170,9 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 		    }
 			
 		/* Cabec da página Todos os dossiês */			
-		.CabecDossiesNavegando {font-size:14px; background:transparent url("images/bk_dossies.gif") repeat-x top left; border-left:1px solid #E1E2DE; border-right:1px solid #E1E2DE;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#025969; line-height:18px; }	 
+		.CabecDossiesNavegando {font-size:1.6em; background: transparent url("images/bk_dossies1.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+
    		.ContentDossiesNavegando {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F4EB;}
 
 		/* Disposição dos itens na página Todos os dossiês */
@@ -150,11 +181,11 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 				   }	 
 
 		/* Disposição dos textos na página Todos os dossiês */
-		.Sombreado {text-shadow: 0px 1px 1px #494E4F; font-size: 16px; line-height:20px;}  
+		.Sombreado {text-shadow: 0px 1px 1px #fff; font-size: 14px; line-height:20px;}  
 
 		/* Disposição dos blocos na página Todos os dossiês */
 		.ContentDossies_left {width:200px; padding:10px; float:left; }
-		.ContentDossies_right {width:190px; height: auto; padding-top:20px; float:right;}
+		.ContentDossies_right {width:185px; height: auto; padding-top:20px; float:right;}
 		.lista dt{font-style: normal; font-weight: normal; color: #333333;  
 			margin: 5px 0 0px 10px;	padding: 0px 0px 0px 12px;
 			background:transparent url("images/marcador1.gif") no-repeat 0 4px;}
@@ -163,104 +194,161 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 			background:transparent url("images/marcador2.gif") no-repeat 0 5px; }
 
 /* Dossiê A Era Vargas 1o tempo */
-.CabecAEraVargas1 {font-size:14px; background-color:#EE8B0A; border-bottom:3px solid #CCCBCB; 
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
-.ContentDossies {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFF5E9;}
+.CabecAEraVargas1 {font-size:12px; background-color:#EE8B0A; border-bottom:3px solid #CCCBCB; 
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentDossies {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFF5E9;}
 .TituloAEraVargas1 {font-weight:bold; color:#D47A04; padding-bottom:5px; border-bottom:1px solid #D47A04;}
 .EmSinteseAEraVargas1 {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
 .OutrosTextosAEraVargas1 {color:#434242;}
 
 
 /* Dossiê A Era Vargas E Ele Voltou */
-.CabecAEraVargas2 {font-size:14px; background-color:#79A9C7; border-bottom:3px solid #CCCBCB; 
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
-.ContentDossies2 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#EFF2F3;}
+.CabecAEraVargas2 {font-size:12px; background-color:#79A9C7; border-bottom:3px solid #CCCBCB; 
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentDossies2 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#EFF2F3;}
 .TituloAEraVargas2 {font-weight:bold; color:#185D92; padding-bottom:5px; border-bottom:1px solid #185D92;}
 .EmSinteseAEraVargas2 {margin: 20px 0; padding:10px; border: 1px #B7D4DE solid; background:#F6FBFC;}
 
 
 /* Dossiê Jango */
-.CabecJango {font-size:14px; background-color:#FBF4A9; border-bottom:3px solid #CCCBCB; 
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#275A9C; line-height:18px; }	 
-.ContentDossies3 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFFEF1;}
+.CabecJango {font-size:12px; background-color:#FBF4A9; border-bottom:3px solid #CCCBCB; 
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#275A9C; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentDossies3 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFFEF1;}
 .TituloJango {font-weight:bold; color:#648ABB; padding-bottom:5px; border-bottom:1px solid #648ABB;}
 
 
 /* Dossiê JK */
-.CabecJK {font-size:14px; background-color:#A5DCA3; border-bottom:3px solid #79B07C; 
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
-.ContentDossies4 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
+.CabecJK {font-size:12px; background-color:#A5DCA3; background:transparent url("images/bk_jk.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#147311; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentDossies4 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
 .TituloJK {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
 
 
 /* Dossiê FatosImagens */
-.CabecFatosImagens {font-size:14px; background-color:#339966; border-bottom:3px solid #79B07C; 
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#fff; line-height:18px; }	 
-.ContentDossies5 {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
+.CabecFatosImagens {font-size:12px; background-color:#339966; border-bottom:3px solid #79B07C; 
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentDossies5 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
 .TituloFatosImagens {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
 .ParaSaberMais {margin: 20px 0; padding:10px; border: 1px #E1EBDB solid; background:#FDFFFC;}
+.EmSinteseFatosImagens {margin: 20px 0; padding:10px; border: 1px #EBF1E8 solid; background:#FBFCFB;}
 
 /* Seção O CPDOC - Estrutura */
-.CabecCpdocEstrutura {font-size:14px; background:transparent url("images/bk_estrutura.gif") repeat-x top left; border-left:1px solid #E9EFDD; border-right:1px solid #E9EFDD;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#2E5138; line-height:18px; }	 
-.ContentCpdocEstrutura {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F4EB;}
+.CabecCpdocEstrutura {font-size:12px; background:transparent url("images/bk_estrutura.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#2E5138; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentCpdocEstrutura {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+/*background-color:#F1F4EB;} */
+
 .TituloCpdocEstrutura {font-weight:bold; color:#2E5138; padding-bottom:5px; border-bottom:1px solid #2E5138;}
+.fotoPesquisador {margin:10px 20px 10px 0; border:2px #CEDBBA solid; float:left; }
+.dadosGeraisPesquisador {margin-left:10px; padding:10px; float:left; }
+.dadosProfissionais {width:100%; clear:both;}
+.TitulodadosProfissionais {background:#CEDBBA; font-weight:bold; width:100%;}
+
 
 /* Seção O CPDOC - Histórico */
-.CabecCpdocHistorico {font-size:14px; background:transparent url("images/bk_historico.gif") repeat-x top left; border-left:1px solid #E4F1EF; border-right:1px solid #E4F1EF;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#086C5D; line-height:18px; }	 
-.ContentCpdocHistorico {height: auto; color:#758CBF; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F4EB;}
-.TituloCpdocHistorico {font-weight:bold; color:#758CBF; padding-bottom:5px; border-bottom:1px solid #758CBF;}
+.CabecCpdocHistorico {font-size:12px; background:transparent url("images/bk_historico.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#086C5D; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentCpdocHistorico {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+/* background-color:#F1F4EB;} */
+.TituloCpdocHistorico {font-weight:bold; color:#17727D; padding-bottom:5px; border-bottom:1px solid #17727D;}
 
 /* Seção O CPDOC - Consultoria */
-.CabecCpdocConsultoria {font-size:14px; background:transparent url("images/bk_consultoria.gif") repeat-x top left; border-left:1px solid #FCE8D1; border-right:1px solid #FCE8D1;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#650B01; line-height:18px; }	 
-.ContentCpdocConsultoria {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecCpdocConsultoria {font-size:12px; background:transparent url("images/bk_consultoria.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#650B01; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentCpdocConsultoria {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
 .TituloCpdocConsultoria {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
 .EmSinteseConsultoria {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
 .TopicosConsultoria {color:#8D0000; border-bottom:4px double #CBD0D9; width:100%;}
 
 /* Seção Ensino - Graduação */
-.CabecEnsinoGraduacao {font-size:14px; background:transparent url("images/bk_graduacao.gif") repeat-x top left; border-left:1px solid #E4F2F6; border-right:1px solid #E4F2F6;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#024B60; line-height:18px; }	 
-.ContentEnsinoGraduacao {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecEnsinoGraduacao {font-size:12px; background:transparent url("images/bk_graduacao.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#024B60; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentEnsinoGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
 .TituloEnsinoGraduacao {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
 
 /* Seção Ensino - PosGraduação */
-.CabecEnsinoPosGraduacao {font-size:14px; background:transparent url("images/bk_posgraduacao.gif") repeat-x top left; border-left:1px solid #CDE5DA; border-right:1px solid #CDE5DA;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#015356; line-height:18px; }	 
-.ContentEnsinoPosGraduacao {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecEnsinoPosGraduacao {font-size:12px; background:transparent url("images/bk_posgraduacao.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#015356; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentEnsinoPosGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
 .TituloEnsinoPosGraduacao {font-weight:bold; color:#015356; padding-bottom:5px; border-bottom:1px solid #015356;}
 .EmSinteseEnsinoPosGraduacao {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
 .TopicosEnsinoPosGraduacao {color:#015356; border-bottom:4px double #CBD0D9; width:100%;}
 
 /* Seção Ensino - Cursos */
-.CabecEnsinoCursos {font-size:14px; background:transparent url("images/bk_cursos.gif") repeat-x top left; border-left:1px solid #E0D8E3; border-right:1px solid #E0D8E3;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#472B52; line-height:18px; }	 
-.ContentEnsinoCursos {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecEnsinoCursos {font-size:12px; background:transparent url("images/bk_cursos.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#472B52; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentEnsinoCursos {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
 .TituloEnsinoCursos {font-weight:bold; color:#472B52; padding-bottom:5px; border-bottom:1px solid #472B52;}
 .EmSinteseEnsinoCursos {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
 .TopicosEnsinoCursos {color:#472B52; border-bottom:4px double #CBD0D9; width:100%;}
 
 /* Seção Pesquisa - Linhas */
-.CabecPesquisaLinhas {font-size:14px; background:transparent url("images/bk_pesqlinhas.gif") repeat-x top left; border-left:1px solid #EEEBE1; border-right:1px solid #EEEBE1;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#4D4B45; line-height:18px; }	 
-.ContentPesquisaLinhas {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; }
-.TituloPesquisaLinhas {font-weight:bold; color:#4D4B45; padding-bottom:5px; border-bottom:1px solid #4D4B45;}
+.CabecPesquisaLinhas {font-size:12px; background:transparent url("images/bk_pesqlinhas.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#675F5B; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentPesquisaLinhas {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloPesquisaLinhas {font-weight:bold; color:#675F5B; padding-bottom:5px; border-bottom:1px solid #675F5B;}
 .EmSintesePesquisaLinhas {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
-.TopicosPesquisaLinhas {color:#4D4B45; border-bottom:4px double #CBD0D9; width:100%;}
+.TopicosPesquisaLinhas {color:#675F5B; border-bottom:4px double #CBD0D9; width:100%;}
 .lista3 dt{font-style: normal; font-weight: normal; color: #333333;  
 			margin: 5px 0 0px 10px;	padding: 0px 0px 0px 12px;
-			background:transparent url("images/marcador1.gif") no-repeat 0 5px;}
+			background:transparent url("images/marcador1.gif") no-repeat 0 6px;}
+.DestaquesPesquisaRight {width:160px; background:transparent url("images/bk_box.jpg") repeat-x top left; border:1px solid #C8D3D6; margin-left:10px; text-align:center;}
+
+/* Seção - FGV Opinião */
+.CabecFGVOpiniao {font-size:12px; background:transparent url("images/bk_pesqlinhas.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#675F5B; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentFGVOpiniao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloFGVOpiniao {font-weight:bold; color:#675F5B; padding-bottom:5px; border-bottom:1px solid #675F5B;}
+.EmSinteseFGVOpiniao {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
+.TopicosFGVOpiniao {color:#675F5B; border-bottom:4px double #CBD0D9; width:100%;}
+.TitulodadosFGVOpiniao {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
 			
 /* Seção Producao - PI */
-.CabecProducaoPI {font-size:14px; background:transparent url("images/bk_producao.gif") repeat-x top left; border-left:1px solid #D8DFE9; border-right:1px solid #D8DFE9;
-	       height:49px; padding:8px 0 0 200px; margin:0 0 0 0; color:#374B66; line-height:18px; }	 
-.ContentProducaoPI {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background:#F3F5F8; }
+.CabecProducaoPI {font-size:1.6em; background: transparent url("images/bk_producao1.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentProducaoPI {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+/*background:#F6F8FC; } */
 .TituloProducaoPI {font-weight:bold; color:#374B66; padding-bottom:5px; border-bottom:1px solid #374B66;}
 .EmSinteseProducaoPI {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EAEEF3;}
 
+/* Seção Acervo - Accessus */
+.CabecAcervoAccessus {font-size:12px; background:transparent url("images/bk_accessus.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#650B01; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentAcervoAccessus {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background:#FEF7EE;}
+.TituloAcervoAccessus {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
+.TituloAcervoAccessusSeries {background:#FDE8CD; font-weight:bold; width:100%;}
+
+/* Seção Acervo - Dhbb */
+.CabecAcervoDhbb {font-size:12px; background:transparent url("images/bk_dhbb.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#3F6D33; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentAcervoDhbb {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloAcervoDhbb {font-weight:bold; color:#3F6D33; padding-bottom:5px; border-bottom:1px solid #3F6D33;}
+
+/* Seção Acervo - Historiaoral */
+.CabecAcervoHistoral {font-size:12px; background:transparent url("images/bk_historal.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#3B6393; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.ContentAcervoHistoral {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.TituloAcervoHistoral {font-weight:bold; color:#3B6393; padding-bottom:5px; border-bottom:1px solid #3B6393;}
+
+/* Seção Noticias e Eventos */
+.CabecNoticiasEventos {font-size:12px; background:transparent url("images/bk_noticias.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#0C4257; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.Eventos {margin-top:20px; padding: 20px; border: 1px solid #ADCDD9; background-color:#EBF4F7; text-align: justify;}
+.TopicosEventos{color:#3F758B; border-bottom:4px double #ADCDD9; width:100%;}
+.TituloNoticiasEventos {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
 
 			
-			#imageData #imageDetails { width:90%; }
+#imageData #imageDetails { width:90%; }
 #frameHoverNav { padding-left:290px; width:20%; }
+#quicktabs-1, #quicktabs-2, #quicktabs-3, #quicktabs-4, #quicktabs-5 {margin:0 20px 20px 20px; }
+
+
+.quicktabs_main.quicktabs-style-basic {background-color:#FFFFFF;border-color:#ADCDD9;border-style:none solid solid; padding:10px;}
+ul.quicktabs_tabs.quicktabs-style-basic {border-bottom:1px solid #ADCDD9;font-family:Calibri, Verdana, "Trebuchet MS";font-size:11px;padding:0 5px 0 0;}
+ul.quicktabs_tabs.quicktabs-style-basic li.active { background:transparent url("images/bk_box.jpg") repeat-x top left; border-left: 1px solid #ADCDD9; border-top: 1px solid #ADCDD9; border-right: 1px solid #ADCDD9; }
+ul.quicktabs_tabs.quicktabs-style-basic a {font-family:Calibri, Verdana, "Trebuchet MS"; font-size:11px !important;}
+
+	
+	
+
+

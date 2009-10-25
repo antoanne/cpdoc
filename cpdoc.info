@@ -13,6 +13,7 @@ stylesheets[print][] = print.css
 
 conditional-stylesheets[if lt IE 7][all][] = ie6-and-below.css
 
+regions[topmenu] = topmenu
 regions[menu] = menu
 regions[cabec] = cabec
 regions[top_right] = top right
@@ -22,6 +23,7 @@ regions[content_right] = content right
 regions[content] = content
 regions[footer_menu] = footer menu
 regions[footer] = footer
+regions[linksrodape] = linksrodape
 features[] = logo
 features[] = slogan
 features[] = search

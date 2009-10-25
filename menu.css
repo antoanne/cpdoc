@@ -1,12 +1,13 @@
 .block-menu .content {
     height:70px;
+	background-color:#ffffff;
     background: url(images/pro_line_fundo.gif) repeat-x;
     position:relative;
     font-family:arial, verdana, sans-serif;
     font-size:11px; 
-    width:1000px;
+    width:978px;
     z-index:500;
-    margin:0 auto;
+    margin:0; 
 }
 
 .block-menu .content .menu{
@@ -121,7 +122,7 @@ color:#f00;
 .block-menu .content .menu li.active-trail ul{
     display:block;
     position:absolute;
-    width:1000px;
+    width:978px;
     top:35px;
     background:url(images/back_0.gif);
     padding:0;
@@ -152,8 +153,11 @@ color:#f00;
 
 
 .fundo-menu{
-	height:70px; width:100%; 
-	background:transparent url("images/pro_line_fundo.gif") repeat-x;
+	height:66px; margin:0px; padding:0px; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;	
+}
+
+.fundo-menu .block .title , #block-block-55 h2  {
+	margin-bottom:0em;
 }
 
 
@@ -168,15 +172,22 @@ color:#f00;
 #content_left .block-menu .content ul.menu li:hover, 
 #content_left .block-menu .content .menu a{
 	margin: 0px; width: 180px; height:35px;  
-	font-family: Calibri,Verdana,"Trebuchet MS"; font-size: 12px; color:#797877;
+	font-family: Calibri,Verdana,"Trebuchet MS"; font-size: 12px; color:#8A8A8A;
 	background: none; border-bottom: #A2A1A1 1px dashed;
 }
 
-#content_left .block-menu .content ul.menu li.active-trail a {padding:0 5px; background-color: #F5F4F4; } 
+#content_left .block-menu .content ul.menu li.active-trail a {padding:0 5px; color:#3D80BF; border-bottom: #CFD9E3 1px solid;} 
+#content_left .block-menu .content ul.menu li:hover a  {padding:0; color:#3D80BF;  }
+#content_left .block-menu .content ul.menu li.active-trail {padding:0; color:#3D80BF; border-bottom: #CFD9E3 1px solid;}
+#content_left .block-menu .content ul.menu li:hover {padding:0 5px; }
+#content_left .block-menu .content .menu a {padding:0 5px; }
+
+
+/* #content_left .block-menu .content ul.menu li.active-trail a {padding:0 5px; background-color: #F5F4F4; } 
 #content_left .block-menu .content ul.menu li:hover a  {padding:0; background-color: #EBE9E9; }
 #content_left .block-menu .content ul.menu li.active-trail {padding:0; background-color: #EBE9E9; }
 #content_left .block-menu .content ul.menu li:hover {padding:0 5px; background-color: #EBE9E9; }
-#content_left .block-menu .content .menu a {padding:0 5px;}
+#content_left .block-menu .content .menu a {padding:0 5px;} */
 
 
 
