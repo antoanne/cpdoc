@@ -12,6 +12,7 @@ stylesheets[all][] = style.css
 stylesheets[print][] = print.css
 
 conditional-stylesheets[if lt IE 7][all][] = ie6-and-below.css
+conditional-stylesheets[if gt IE 6][all][] = ie7.css
 
 regions[topmenu] = topmenu
 regions[menu] = menu
