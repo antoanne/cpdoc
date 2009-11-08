@@ -4,7 +4,7 @@
 /*	background:transparent url("images/bk_principal.gif") repeat-x top left; background-color:#5198B4;} */
 
 .body-main{ display:block;}
-.corpo{ background-color:#ffffff; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;}
+.corpo{ background:transparent url("images/bk_box.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;}
 
 
 /* Nova região: cabeçalho */
@@ -140,7 +140,7 @@ p img{ padding: 10px; }
 					    background:transparent url("images/bk_box.jpg") repeat-x top left; border:1px solid #CFCFCF; margin-left:10px; margin-top:-14px;}
 
 
-#content_left{float:left; width:185px !important; margin:0px 5px 0px 0px;}
+#content_left{float:left; width:185px !important; margin:-8px 5px 0px 0px; }
 #content{float:left; margin:0 0 0 0px; }
 #content_right{float:right; margin:0px 0px 0px 5px;}
 
@@ -170,7 +170,7 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 		    }
 			
 		/* Cabec da página Todos os dossiês */			
-		.CabecDossiesNavegando {font-size:1.6em; background: transparent url("images/bk_dossies1.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+		.CabecDossiesNavegando {font-size:1.3em; background: transparent url("images/bk_dossies1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 
    		.ContentDossiesNavegando {height: auto; color:#434242; margin: 0px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F4EB;}
@@ -196,7 +196,7 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 /* Dossiê A Era Vargas 1o tempo */
 .CabecAEraVargas1 {font-size:12px; background-color:#EE8B0A; border-bottom:3px solid #CCCBCB; 
 	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFF5E9;}
+.ContentDossies {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#FFF5E9;}
 .TituloAEraVargas1 {font-weight:bold; color:#D47A04; padding-bottom:5px; border-bottom:1px solid #D47A04;}
 .EmSinteseAEraVargas1 {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
 .OutrosTextosAEraVargas1 {color:#434242;}
@@ -205,7 +205,7 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 /* Dossiê A Era Vargas E Ele Voltou */
 .CabecAEraVargas2 {font-size:12px; background-color:#79A9C7; border-bottom:3px solid #CCCBCB; 
 	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies2 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#EFF2F3;}
+.ContentDossies2 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#EFF2F3;}
 .TituloAEraVargas2 {font-weight:bold; color:#185D92; padding-bottom:5px; border-bottom:1px solid #185D92;}
 .EmSinteseAEraVargas2 {margin: 20px 0; padding:10px; border: 1px #B7D4DE solid; background:#F6FBFC;}
 
@@ -213,29 +213,29 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 /* Dossiê Jango */
 .CabecJango {font-size:12px; background-color:#FBF4A9; border-bottom:3px solid #CCCBCB; 
 	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#275A9C; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies3 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#FFFEF1;}
+.ContentDossies3 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#FFFEF1;}
 .TituloJango {font-weight:bold; color:#648ABB; padding-bottom:5px; border-bottom:1px solid #648ABB;}
 
 
 /* Dossiê JK */
-.CabecJK {font-size:12px; background-color:#A5DCA3; background:transparent url("images/bk_jk.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#147311; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies4 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
+.CabecJK {font-size:1.3em;  background: transparent url("images/bk_anosJK1.jpg") no-repeat top right; background-color:#7CC179; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentDossies4 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0 10px 0 10px; text-align:justify; line-height:20px; }
 .TituloJK {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
-
+.EmSinteseJK {margin: 20px 0; padding:10px; border: 1px #B7D4DE solid; background:#F6FBFC;}
 
 /* Dossiê FatosImagens */
-.CabecFatosImagens {font-size:12px; background-color:#339966; border-bottom:3px solid #79B07C; 
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies5 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background-color:#F1F9ED;}
+.CabecFatosImagens {font-size:1.3em;  background: transparent url("images/bk_fatosimagens1.jpg") no-repeat top right; background-color:#268653; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentDossies5 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloFatosImagens {font-weight:bold; color:#3E833C; padding-bottom:5px; border-bottom:1px solid #3E833C;}
 .ParaSaberMais {margin: 20px 0; padding:10px; border: 1px #E1EBDB solid; background:#FDFFFC;}
 .EmSinteseFatosImagens {margin: 20px 0; padding:10px; border: 1px #EBF1E8 solid; background:#FBFCFB;}
 
 /* Seção O CPDOC - Estrutura */
-.CabecCpdocEstrutura {font-size:12px; background:transparent url("images/bk_estrutura.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#2E5138; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentCpdocEstrutura {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecCpdocEstrutura {font-size:1.3em; background: transparent url("images/bk_estrutura1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentCpdocEstrutura {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 /*background-color:#F1F4EB;} */
 
 .TituloCpdocEstrutura {font-weight:bold; color:#2E5138; padding-bottom:5px; border-bottom:1px solid #2E5138;}
@@ -246,46 +246,46 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 
 
 /* Seção O CPDOC - Histórico */
-.CabecCpdocHistorico {font-size:12px; background:transparent url("images/bk_historico.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#086C5D; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentCpdocHistorico {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecCpdocHistorico {font-size:1.3em; background: transparent url("images/bk_historico1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentCpdocHistorico {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 /* background-color:#F1F4EB;} */
 .TituloCpdocHistorico {font-weight:bold; color:#17727D; padding-bottom:5px; border-bottom:1px solid #17727D;}
 
 /* Seção O CPDOC - Consultoria */
-.CabecCpdocConsultoria {font-size:12px; background:transparent url("images/bk_consultoria.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#650B01; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentCpdocConsultoria {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecCpdocConsultoria {font-size:1.3em; background: transparent url("images/bk_consultoria1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentCpdocConsultoria {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloCpdocConsultoria {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
 .EmSinteseConsultoria {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
 .TopicosConsultoria {color:#8D0000; border-bottom:4px double #CBD0D9; width:100%;}
 
 /* Seção Ensino - Graduação */
-.CabecEnsinoGraduacao {font-size:12px; background:transparent url("images/bk_graduacao.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#024B60; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentEnsinoGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecEnsinoGraduacao {font-size:1.3em; background: transparent url("images/bk_graduacao1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentEnsinoGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloEnsinoGraduacao {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
 
 /* Seção Ensino - PosGraduação */
-.CabecEnsinoPosGraduacao {font-size:12px; background:transparent url("images/bk_posgraduacao.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#015356; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentEnsinoPosGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecEnsinoPosGraduacao {font-size:1.3em; background: transparent url("images/bk_posgraduacao1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentEnsinoPosGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloEnsinoPosGraduacao {font-weight:bold; color:#015356; padding-bottom:5px; border-bottom:1px solid #015356;}
 .EmSinteseEnsinoPosGraduacao {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
 .TopicosEnsinoPosGraduacao {color:#015356; border-bottom:4px double #CBD0D9; width:100%;}
 
 /* Seção Ensino - Cursos */
-.CabecEnsinoCursos {font-size:12px; background:transparent url("images/bk_cursos.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#472B52; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentEnsinoCursos {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecEnsinoCursos {font-size:1.3em; background: transparent url("images/bk_cursos1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentEnsinoCursos {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloEnsinoCursos {font-weight:bold; color:#472B52; padding-bottom:5px; border-bottom:1px solid #472B52;}
 .EmSinteseEnsinoCursos {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
 .TopicosEnsinoCursos {color:#472B52; border-bottom:4px double #CBD0D9; width:100%;}
 
 /* Seção Pesquisa - Linhas */
-.CabecPesquisaLinhas {font-size:12px; background:transparent url("images/bk_pesqlinhas.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#675F5B; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentPesquisaLinhas {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecPesquisaLinhas {font-size:1.3em; background: transparent url("images/bk_pesquisa1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentPesquisaLinhas {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloPesquisaLinhas {font-weight:bold; color:#675F5B; padding-bottom:5px; border-bottom:1px solid #675F5B;}
 .EmSintesePesquisaLinhas {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
 .TopicosPesquisaLinhas {color:#675F5B; border-bottom:4px double #CBD0D9; width:100%;}
@@ -297,42 +297,49 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 /* Seção - FGV Opinião */
 .CabecFGVOpiniao {font-size:12px; background:transparent url("images/bk_pesqlinhas.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#675F5B; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentFGVOpiniao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.ContentFGVOpiniao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloFGVOpiniao {font-weight:bold; color:#675F5B; padding-bottom:5px; border-bottom:1px solid #675F5B;}
 .EmSinteseFGVOpiniao {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
 .TopicosFGVOpiniao {color:#675F5B; border-bottom:4px double #CBD0D9; width:100%;}
 .TitulodadosFGVOpiniao {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
+
+/* Seção Producao - PI */
+.CabecRelacoesInternacionais {font-size:1.3em; background: transparent url("images/bk_producao1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentRelacoesInternacionais {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
+.TituloRelacoesInternacionais {font-weight:bold; color:#374B66; padding-bottom:5px; border-bottom:1px solid #374B66;}
+.TitulodadosRelacoesInternacionais {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
 			
 /* Seção Producao - PI */
-.CabecProducaoPI {font-size:1.6em; background: transparent url("images/bk_producao1.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+.CabecProducaoPI {font-size:1.3em; background: transparent url("images/bk_producao1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
-.ContentProducaoPI {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.ContentProducaoPI {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 /*background:#F6F8FC; } */
 .TituloProducaoPI {font-weight:bold; color:#374B66; padding-bottom:5px; border-bottom:1px solid #374B66;}
 .EmSinteseProducaoPI {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EAEEF3;}
 
 /* Seção Acervo - Accessus */
-.CabecAcervoAccessus {font-size:12px; background:transparent url("images/bk_accessus.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#650B01; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentAcervoAccessus {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; background:#FEF7EE;}
+.CabecAcervoAccessus {font-size:1.3em; background: transparent url("images/bk_accessus1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentAcervoAccessus {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background:#fff;}
 .TituloAcervoAccessus {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
 .TituloAcervoAccessusSeries {background:#FDE8CD; font-weight:bold; width:100%;}
 
 /* Seção Acervo - Dhbb */
-.CabecAcervoDhbb {font-size:12px; background:transparent url("images/bk_dhbb.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#3F6D33; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentAcervoDhbb {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecAcervoDhbb {font-size:1.3em; background: transparent url("images/bk_dhbb1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentAcervoDhbb {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloAcervoDhbb {font-weight:bold; color:#3F6D33; padding-bottom:5px; border-bottom:1px solid #3F6D33;}
 
 /* Seção Acervo - Historiaoral */
-.CabecAcervoHistoral {font-size:12px; background:transparent url("images/bk_historal.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#3B6393; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentAcervoHistoral {height: auto; color:#434242; margin: 0 0 0 20px; padding: 10px; text-align:justify; line-height:20px; }
+.CabecAcervoHistoral {font-size:1.3em; background: transparent url("images/bk_historal1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentAcervoHistoral {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
 .TituloAcervoHistoral {font-weight:bold; color:#3B6393; padding-bottom:5px; border-bottom:1px solid #3B6393;}
 
 /* Seção Noticias e Eventos */
-.CabecNoticiasEventos {font-size:12px; background:transparent url("images/bk_noticias.gif") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#0C4257; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
+.CabecNoticiasEventos {font-size:1.3em; background: transparent url("images/bk_noticias1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 .Eventos {margin-top:20px; padding: 20px; border: 1px solid #ADCDD9; background-color:#EBF4F7; text-align: justify;}
 .TopicosEventos{color:#3F758B; border-bottom:4px double #ADCDD9; width:100%;}
 .TituloNoticiasEventos {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
