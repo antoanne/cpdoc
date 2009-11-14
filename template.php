@@ -1,7 +1,7 @@
 <?php
 
 function template_width($left, $right) {
-  $width = 600;
+  $width = 580;
   if (!$left ) {
     $width = $width +200;
   }  

@@ -38,5 +38,6 @@
     </div>
   <?php endif; ?>
   
-
+	<div id="home-news-todas-noticias"><a href="/sobre/noticias">Mais destaques</a>&nbsp;&nbsp;</div>
+  
 </div> <?php // class view ?>

@@ -11,6 +11,8 @@ stylesheets[all][base] = base.css
 stylesheets[all][] = style.css
 stylesheets[print][] = print.css
 
+scripts[] = scripts.js
+
 conditional-stylesheets[if lt IE 7][all][] = ie6-and-below.css
 conditional-stylesheets[if gt IE 6][all][] = ie7.css
 

@@ -7,10 +7,10 @@
  * @ingroup views_templates
  */
 ?>
-<div id="dspace-mais-publicacoes"><a href="http://virtualbib.fgv.br/dspace/handle/10438/1758">+ ver mais publicações</a></div>
+
 <?php foreach ($rows as $id => $row): ?>
   <div class="<?php print $classes[$id]; ?>">
     <?php print $row; ?>
   </div>
 <?php endforeach; ?>
-
+<div id="dspace-mais-publicacoes"><a href="http://virtualbib.fgv.br/dspace/handle/10438/1758">Mais publicações</a></div>

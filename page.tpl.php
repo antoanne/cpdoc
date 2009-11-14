@@ -3,6 +3,7 @@
 
 <head>
   <?php print $head ?>
+<link rel="alternate" type="application/atom+xml" title="CPDOC Atom Feed" href="/rss.xml" />
   <title><?php print $head_title ?></title>
   <?php print $styles ?>
   <?php print $scripts ?>

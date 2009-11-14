@@ -22,8 +22,8 @@
 #linksrodape {width:978; height:auto; padding:10px; color:#fff; font-size:11px;; 
 			 background-color:#377187; margin:0px; }
 #linksrodape td{color:#fff; font-size:11px;}
-.linksrodapecopy {color:#ffffff; font-size:10px; padding:10px; padding-left:10px; margin:0px;}	 
-.linksrodapecopy  a{color:#ffffff;}
+.linksrodapecopy {color:#000000; font-size:10px; padding:10px; padding-left:10px; margin:0px;}	 
+.linksrodapecopy  a{color:#000000;}
 			 
 #top{margin:0px; height:81px; background:transparent url("images/bg_top.gif") repeat-x; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;} 
 /* #top{margin:0px; background:transparent url("images/cabecalhoGV.gif") no-repeat fixed 705px 52px; border-top:1px solid #CCCBCB; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;} */
@@ -32,7 +32,7 @@
 a:hover{text-decoration:underline;}
 
 #content_left p img{ padding: 0px; }
-p img{ padding: 10px; }
+p img{ padding: 10px; border:1px solid #E6E5E0;}
 .make-it-center{ margin:0; height:auto; width:980px; clear:both;}
 
 .block {padding-bottom:0;}
@@ -66,11 +66,11 @@ p img{ padding: 10px; }
 #home-news-content{width:517px; background:transparent url("images/bk_box.jpg") repeat-x top left; border:1px solid #C8D3D6; margin-left:10px;}
 
     #home-news-title{color:#000000; text-align:justify; padding:0px 5px 0px 5px;}
-    #home-news-todas-noticias{float:right; margin-top:-10px; padding:6px 15px 2px 15px; color:#fff; background-color:#758DA7;}
+    #home-news-todas-noticias{width:515px; text-align:right; padding:2px; color:#fff; background-color:#758DA7; margin-left:10px;}
     #home-news-todas-noticias a{color:#fff; font-weight:normal;}
     #home-news p, #home-news p a{color:#000; font-weight:normal; }
     #home-news h2{margin:0px 0px 4px 10px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772;}
-    #home-news-first, #home-news-last, #home-news-last-last{font-size:13px; border-bottom:1px #C8D3D6 dotted; border-left:1px #C8D3D6 dotted;}
+    #home-news-first, #home-news-last, #home-news-last-last{font-size:13px; border-bottom:1px #C8D3D6 dotted; }
 	#home-news-last-last {border-bottom:none;}
     #home-news-first img, #home-news-last img, #home-news-last-last img{display:none;}
     #home-news a:hover {text-decoration:none;}
@@ -84,7 +84,7 @@ p img{ padding: 10px; }
 #DSpaceFeed h2{margin:0px 0px 4px 0px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772;}
 #DSpaceFeedTitle, #DSpaceFeedTitle a{font-weight:normal; color:#000000;}
 #DSpaceFeedAutor, #DSpaceFeedAutor a{font-weight:normal; padding:0px 0px 10px 10px; color:#555;}
-#dspace-mais-publicacoes {float:right; margin-top:-30px; padding:3px 15px 4px 15px; color:#fff; font-size:13px; background-color:#758DA7;}
+#dspace-mais-publicacoes {width:515px; text-align:right; padding:2px; color:#fff; background-color:#758DA7;}
 #dspace-mais-publicacoes a {color:#fff; font-weight:normal;}
 #dspace-mais-publicacoes a:hover {text-decoration:underline;}
 
@@ -117,7 +117,7 @@ p img{ padding: 10px; }
 
 .block{border-bottom:none}
 
-#YouTube h3{margin:0px 0px 4px 0px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772; }
+#YouTube h3{margin:25px 0px 4px 0px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772; }
 #YouTubeMais{clear:both; padding:2px 0px 2px 5px; color:#ccc; font-size:13px; background-color:#758DA7; padding-left:90px;}
 #YouTubeMais a {color:#fff; font-weight:normal; }
 #YouTubeFeed{float:left; width:100%; margin:2px; font-weight:normal; font-size:11px; background-color:#F3F6F6}
@@ -140,9 +140,9 @@ p img{ padding: 10px; }
 					    background:transparent url("images/bk_box.jpg") repeat-x top left; border:1px solid #CFCFCF; margin-left:10px; margin-top:-14px;}
 
 
-#content_left{float:left; width:185px !important; margin:-8px 5px 0px 0px; }
+#content_left{float:left; width:185px !important; margin:-10px 5px 0px 0px; }
 #content{float:left; margin:0 0 0 0px; }
-#content_right{float:right; margin:0px 0px 0px 5px;}
+#content_right{float:right; margin:0px 10px 0px 5px;}
 
 
 .views-cloud a{width:100%;}
@@ -155,10 +155,8 @@ li.views-cloud-size-5, div.views-cloud-size-5{ font-size: 1.6em; }
 li.views-cloud-size-6, div.views-cloud-size-6{ font-size: 1.8em; }
 li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 
-#mission, .node .content, .comment .content {line-height:1.1em; text-align:justify;}
+#mission, .node .content, .comment .content {line-height:1.1em; margin:0.5em 0; text-align:justify; }
 .calendar-calendar div.calendar { font-size:small; }
-
-#imageDetails p {margin-top:0;}
 #QuebraLinha8  {margin:0px; padding: 4px 0;}
 
 .node {margin:0px; }
@@ -194,26 +192,26 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 			background:transparent url("images/marcador2.gif") no-repeat 0 5px; }
 
 /* Dossiê A Era Vargas 1o tempo */
-.CabecAEraVargas1 {font-size:12px; background-color:#EE8B0A; border-bottom:3px solid #CCCBCB; 
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#FFF5E9;}
+.CabecAEraVargas1 {font-size:1.3em;  background: transparent url("images/bk_accessus1.jpg") no-repeat top right; background-color:#EC8C3E; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentDossies {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#fff;}
 .TituloAEraVargas1 {font-weight:bold; color:#D47A04; padding-bottom:5px; border-bottom:1px solid #D47A04;}
 .EmSinteseAEraVargas1 {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
 .OutrosTextosAEraVargas1 {color:#434242;}
 
 
 /* Dossiê A Era Vargas E Ele Voltou */
-.CabecAEraVargas2 {font-size:12px; background-color:#79A9C7; border-bottom:3px solid #CCCBCB; 
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#fff; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies2 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#EFF2F3;}
+.CabecAEraVargas2 {font-size:1.3em;  background: transparent url("images/bk_eravargas2.jpg") no-repeat top right; background-color:#5FAAD6; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentDossies2 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#fff;}
 .TituloAEraVargas2 {font-weight:bold; color:#185D92; padding-bottom:5px; border-bottom:1px solid #185D92;}
 .EmSinteseAEraVargas2 {margin: 20px 0; padding:10px; border: 1px #B7D4DE solid; background:#F6FBFC;}
 
 
 /* Dossiê Jango */
-.CabecJango {font-size:12px; background-color:#FBF4A9; border-bottom:3px solid #CCCBCB; 
-	       height:49px; padding:8px 0 0 210px; margin:0 0 0 0; color:#275A9C; text-shadow: 0px 1px 1px #fff; line-height:18px; }	 
-.ContentDossies3 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#FFFEF1;}
+.CabecJango {font-size:1.3em;  background: transparent url("images/bk_jango1.jpg") no-repeat top right; background-color:#6A6FAB; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
+.ContentDossies3 {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background-color:#fff;}
 .TituloJango {font-weight:bold; color:#648ABB; padding-bottom:5px; border-bottom:1px solid #648ABB;}
 
 
@@ -236,8 +234,6 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .CabecCpdocEstrutura {font-size:1.3em; background: transparent url("images/bk_estrutura1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 .ContentCpdocEstrutura {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
-/*background-color:#F1F4EB;} */
-
 .TituloCpdocEstrutura {font-weight:bold; color:#2E5138; padding-bottom:5px; border-bottom:1px solid #2E5138;}
 .fotoPesquisador {margin:10px 20px 10px 0; border:2px #CEDBBA solid; float:left; }
 .dadosGeraisPesquisador {margin-left:10px; padding:10px; float:left; }
@@ -249,30 +245,29 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .CabecCpdocHistorico {font-size:1.3em; background: transparent url("images/bk_historico1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 .ContentCpdocHistorico {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
-/* background-color:#F1F4EB;} */
 .TituloCpdocHistorico {font-weight:bold; color:#17727D; padding-bottom:5px; border-bottom:1px solid #17727D;}
+.TitulodadosHistorico {background:#BCD2CD; font-weight:bold; width:100%;}
 
 /* Seção O CPDOC - Consultoria */
 .CabecCpdocConsultoria {font-size:1.3em; background: transparent url("images/bk_consultoria1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 .ContentCpdocConsultoria {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
-.TituloCpdocConsultoria {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
-.EmSinteseConsultoria {margin: 20px 0; padding:10px; border: 1px #FDF2DE solid; background:#FDFAF6;}
-.TopicosConsultoria {color:#8D0000; border-bottom:4px double #CBD0D9; width:100%;}
+.TituloCpdocConsultoria {font-weight:bold; color:#C06309; padding-bottom:5px; border-bottom:1px solid #C06309;}
+.TopicosConsultoria {background:#FFF7E2; width:100%; margin-top:15px;}
 
 /* Seção Ensino - Graduação */
 .CabecEnsinoGraduacao {font-size:1.3em; background: transparent url("images/bk_graduacao1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
-.ContentEnsinoGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
-.TituloEnsinoGraduacao {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
+.ContentEnsinoGraduacao {height: auto; color:#434242; margin: 0 0 0 10px; padding: 0px 10px; text-align:justify; line-height:20px; }
+.TituloEnsinoGraduacao {font-weight:bold; color:#0F84A7; padding-bottom:5px; border-bottom:1px solid #0F84A7;}
+.TopicosEnsinoGraduacao {background:#D9EBF0; width:100%; margin-top:15px;}
 
 /* Seção Ensino - PosGraduação */
 .CabecEnsinoPosGraduacao {font-size:1.3em; background: transparent url("images/bk_posgraduacao1.jpg") repeat-x top left; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 .ContentEnsinoPosGraduacao {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
-.TituloEnsinoPosGraduacao {font-weight:bold; color:#015356; padding-bottom:5px; border-bottom:1px solid #015356;}
-.EmSinteseEnsinoPosGraduacao {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
-.TopicosEnsinoPosGraduacao {color:#015356; border-bottom:4px double #CBD0D9; width:100%;}
+.TituloEnsinoPosGraduacao {font-weight:bold; color:#506D19; padding-bottom:5px; border-bottom:1px solid #506D19;}
+.TopicosEnsinoPosGraduacao {background:#EBF0E2; width:100%; margin-top:15px;}
 
 /* Seção Ensino - Cursos */
 .CabecEnsinoCursos {font-size:1.3em; background: transparent url("images/bk_cursos1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
@@ -301,7 +296,9 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .TituloFGVOpiniao {font-weight:bold; color:#675F5B; padding-bottom:5px; border-bottom:1px solid #675F5B;}
 .EmSinteseFGVOpiniao {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EEF6F2;}
 .TopicosFGVOpiniao {color:#675F5B; border-bottom:4px double #CBD0D9; width:100%;}
-.TitulodadosFGVOpiniao {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
+.TitulodadosFGVOpiniao {background:#E7E2DF; padding: 2px 2px 2px 5px; font-weight:bold; width:100%;}
+.oculto  {display: none;	visibility: hidden; }
+.visivel {display: block; visibility: visible; }
 
 /* Seção Producao - PI */
 .CabecRelacoesInternacionais {font-size:1.3em; background: transparent url("images/bk_producao1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
@@ -319,10 +316,10 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .EmSinteseProducaoPI {margin: 0; padding:10px; border: 1px #CFE6DB solid; background:#EAEEF3;}
 
 /* Seção Acervo - Accessus */
-.CabecAcervoAccessus {font-size:1.3em; background: transparent url("images/bk_accessus1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
+.CabecAcervoAccessus {font-size:1.3em; background: transparent url("images/bk_eravargas1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 .ContentAcervoAccessus {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; background:#fff;}
-.TituloAcervoAccessus {font-weight:bold; color:#650B01; padding-bottom:5px; border-bottom:1px solid #650B01;}
+.TituloAcervoAccessus {font-weight:bold; color:#B75F01; padding-bottom:5px; border-bottom:1px solid #B75F01;}
 .TituloAcervoAccessusSeries {background:#FDE8CD; font-weight:bold; width:100%;}
 
 /* Seção Acervo - Dhbb */
@@ -335,6 +332,7 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .CabecAcervoHistoral {font-size:1.3em; background: transparent url("images/bk_historal1.jpg") repeat-x top right; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;
 	       height:30px; padding:12px 0 0 15px; margin:0 0 0 0; color:#ffffff; line-height:18px; }	 
 .ContentAcervoHistoral {height: auto; color:#434242; margin: 0 0 0 20px; padding: 0px 10px; text-align:justify; line-height:20px; }
+.ContentAcervoHistoral img{border:0px solid #3F6D33;}
 .TituloAcervoHistoral {font-weight:bold; color:#3B6393; padding-bottom:5px; border-bottom:1px solid #3B6393;}
 
 /* Seção Noticias e Eventos */
@@ -344,8 +342,11 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .TopicosEventos{color:#3F758B; border-bottom:4px double #ADCDD9; width:100%;}
 .TituloNoticiasEventos {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
 
-			
-#imageData #imageDetails { width:90%; }
+		
+#imageDetails p {margin-top:0;}
+#imageData #imageDetails {width:100%; text-align: justify;}
+#imageData #caption {font-weight:normal;}
+
 #frameHoverNav { padding-left:290px; width:20%; }
 #quicktabs-1, #quicktabs-2, #quicktabs-3, #quicktabs-4, #quicktabs-5 {margin:0 20px 20px 20px; }
 
@@ -356,6 +357,6 @@ ul.quicktabs_tabs.quicktabs-style-basic li.active { background:transparent url("
 ul.quicktabs_tabs.quicktabs-style-basic a {font-family:Calibri, Verdana, "Trebuchet MS"; font-size:11px !important;}
 
 	
-	
+div.exhibit-thumbnailView-itemContainer {margin:10px 0 0 10px; width:100%;}
 
 
