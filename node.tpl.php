@@ -6,6 +6,7 @@
       print $picture;
     }?>
     <?php if ($page == 0) { ?><h2 class="title"><a href="<?php print $node_url?>"><?php print $title?></a></h2><?php }; ?>  
-    <div class="taxonomy"><?php print $terms?></div>
-    <div class="content"><?php print $content?></div>
+    <div class="taxonomy"><?php print $terms; ?></div>
+    <div class="lang_icon"><?php print $t9nlinks; ?></div>
+    <div class="content"><?php print $content; ?></div>
   </div>

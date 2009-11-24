@@ -1,13 +1,13 @@
 .block-menu .content {
     height:70px;
-	background-color:#ffffff;
+    background-color:#ffffff;
     background: url(images/pro_line_fundo.gif) repeat-x;
     position:relative;
     font-family:arial, verdana, sans-serif;
     font-size:11px; 
-    width:978px;
+    width:980px;
     z-index:500;
-    margin:0; 
+    margin:0 auto; 
 }
 
 .block-menu .content .menu{
@@ -122,7 +122,7 @@ color:#f00;
 .block-menu .content .menu li.active-trail ul{
     display:block;
     position:absolute;
-    width:978px;
+    width:980px;
     top:35px;
     background:url(images/back_0.gif);
     padding:0;
@@ -153,7 +153,7 @@ color:#f00;
 
 
 .fundo-menu{
-	height:66px; margin:0px; padding:0px; border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB;	
+	height:66px; margin:0px; padding:0px; 	
 }
 
 .fundo-menu .block .title , #block-block-55 h2  {

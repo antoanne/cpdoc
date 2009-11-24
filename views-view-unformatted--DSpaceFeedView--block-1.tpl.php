@@ -14,4 +14,5 @@
     <?php print $row; ?>
   </div>
 <?php endforeach; ?>
+<div id="dspace-mais-publicacoes"><a href="http://virtualbib.fgv.br/dspace/handle/10438/1758">Mais publicações</a></div>
 </div>

@@ -20,6 +20,6 @@
   * the view is modified.
   */
 ?>
-<div style="padding:0px 7px 7px 7px; width:200px;">
-	<center><img src="<?php print (base_path() . "sites/default/files/" . $output); ?>" style="max-height:120px; max-width:200px;" ></img></center>
+<div>
+	<center><img src="<?php print (base_path() . "sites/default/files/" . $output); ?>"></img></center>
 </div>
