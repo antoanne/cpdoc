@@ -6,6 +6,7 @@
 .body-main{ display:block;}
 .corpo{ border-left:1px solid #CCCBCB; border-right:1px solid #CCCBCB; width:978px; margin:auto;}
 
+h2 {text-align:left;}
 
 /* Nova região: cabeçalho */
 #cabec{ margin:0px; height:auto; width:100%; clear:both; }
@@ -98,7 +99,7 @@ p img{ padding: 8px; border:1px solid #F4F4F1;}
 
 .block-search { font-size:0.8em; padding-top:20px; margin-top:2.8em;}
     .block-search .form-item label { color:#3399cc; }
-    #search input { background-color: #EFEFEF;  border:1px solid #666666;   }
+    #search input { background-color: #EFEFEF;  border:1px solid #666666; margin-left:2px; }
     #search #submit{ padding-top:14px; font-size:1.15em;  }
 
 #footer-menu .content{ background:none; height:2px; padding:0px 0px 0px 0px; }
@@ -120,7 +121,7 @@ p img{ padding: 8px; border:1px solid #F4F4F1;}
 .block{border-bottom:none}
 
 #YouTube h3{margin:25px 0px 4px 0px; font-size:13px; border-bottom:1px solid #758DA7; color:#1A3772; }
-#YouTubeMais{clear:both; padding:2px 0px 2px 5px; color:#ccc; font-size:13px; background-color:#758DA7; padding-left:90px;}
+#YouTubeMais{clear:both; padding:2px 4px 2px 10px; text-align:right; color:#ccc; font-size:13px; background-color:#758DA7;}
 #YouTubeMais a {color:#fff; font-weight:normal; }
 #YouTubeFeed{float:left; width:100%; margin:2px; font-weight:normal; font-size:11px; background-color:#F3F6F6}
 #YouTubeFeedTumb{float:left; border:1px solid #758DA7; padding:2px;}
@@ -350,6 +351,7 @@ li.views-cloud-size-7, div.views-cloud-size-7{ font-size: 2em; }
 .TopicosEventos{color:#3F758B; border-bottom:4px double #ADCDD9; width:100%;}
 .TituloNoticiasEventos {background:#E7E2DF; padding: 2px 2px 2px 10px; font-weight:bold; width:100%;}
 
+
 		
 #imageDetails p {margin-top:0;}
 #imageData #imageDetails {width:100%; text-align: justify;}
@@ -366,10 +368,8 @@ ul.quicktabs_tabs.quicktabs-style-basic a {font-family:Calibri, Verdana, "Trebuc
 
 	
 div.exhibit-thumbnailView-itemContainer {margin:10px 0 0 10px;}
+DIV.exhibit-thumbnailView-itemContainer-IE {FLOAT: none; OVERFLOW: visible; width:100% !important;}
+div.exhibit-text-facet input {width:178px;}
+a.exhibit-item, a.exhibit-item:link, a.exhibit-item:active, a.exhibit-item:visited {border-bottom:none;}
 
-
-DIV.exhibit-thumbnailView-itemContainer-IE {
-    FLOAT: none; OVERFLOW: visible; width:100% !important;
-}
-
-ul.t9nlinks { float:right; }
+ul.t9nlinks {float:right;}
